@@ -1,0 +1,1882 @@
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\Arma 3\Arma3_x64.exe
+== "C:\Program Files (x86)\Steam\steamapps\common\Arma 3\Arma3_x64.exe" -unit=20990 -mod= -beservice
+
+Original output filename: Arma3Retail_DX11_x64
+Exe timestamp: 2022/03/22 03:10:03
+Current time:  2022/08/13 22:13:26
+
+Type: Public
+Build: Stable
+Version: 2.08.149102
+
+Allocator: C:\Program Files (x86)\Steam\steamapps\common\Arma 3\Dll\tbb4malloc_bi_x64.dll [2017.0.0.0] [2017.0.0.0]
+PhysMem: 32 GiB, VirtMem : 131072 GiB, AvailPhys : 23 GiB, AvailVirt : 131068 GiB, AvailPage : 35 GiB, PageSize : 4.0 KiB/2.0 MiB/HasLockMemory
+=====================================================================
+
+22:13:26 Detected number of DLCs: 20
+22:13:26 ---------------------------------------------------------- Game ----------------------------------------------------------
+22:13:26                                                                name      appId   owned  installed  available   isDlc
+22:13:26                                                              Arma 3     107410     yes        yes        yes      no
+22:13:26                                                             Unknown         -1      no         no         no     yes
+22:13:26 ---------------------------------------------------------- Dlcs ----------------------------------------------------------
+22:13:26  index                                                         name      appId   owned  installed  available   isDlc
+22:13:26      0                                                  Arma 3 Maps     249861      no         no         no     yes
+22:13:26      1                                        Arma 3 Tactical Guide     249862      no         no         no     yes
+22:13:26      2                                                  Arma 3 Zeus     275700     yes        yes        yes     yes
+22:13:26      3                                                 Arma 3 Karts     288520     yes        yes        yes     yes
+22:13:26      4                                           Arma 3 Helicopters     304380     yes        yes        yes     yes
+22:13:26      5                                          Arma 3 DLC Bundle 1     304400      no         no         no     yes
+22:13:26      6                                              Arma 3 Marksmen     332350     yes        yes        yes     yes
+22:13:26      7                                                  Arma 3 Apex     395180     yes        yes        yes     yes
+22:13:26      8                                           Arma 3 Laws of War     571710     yes        yes        yes     yes
+22:13:26      9                                                  Arma 3 Jets     601670     yes        yes        yes     yes
+22:13:26     10                                          Arma 3 DLC Bundle 2     612480      no         no         no     yes
+22:13:26     11                                                Arma 3 Malden     639600     yes        yes        yes     yes
+22:13:26     12                                  Arma 3 Tac-Ops Mission Pack     744950     yes        yes        yes     yes
+22:13:26     13                                                 Arma 3 Tanks     798390     yes        yes        yes     yes
+22:13:26     14                                               Arma 3 Contact    1021790     yes        yes        yes     yes
+22:13:26     15   Arma 3 Creator DLC: Global Mobilization - Cold War Germany    1042220      no         no        yes     yes
+22:13:26     16                      Arma 3 Creator DLC: S.O.G. Prairie Fire    1227700      no         no        yes     yes
+22:13:26     17                        Arma 3 Creator DLC: CSLA Iron Curtain    1294440      no         no        yes     yes
+22:13:26     18                                            Arma 3 Art of War    1325500     yes        yes        yes     yes
+22:13:26     19                           Arma 3 Creator DLC: Western Sahara    1681170     yes        yes        yes     yes
+22:13:26 --------------------------------------------------------------------------------------------------------------------------
+22:13:26 Overriding current Unit selection to 20990
+22:13:26 Overriding current Unit selection to 20990
+22:13:26 Initializing stats manager.
+22:13:26 sessionID: c9fd8a0161f6239ac5c5fb52d1fcbd80234937f1
+22:13:34 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayEditObject/Controls/B_OK/ (original bin\config.bin)
+22:13:34 Updating base class RscSliderH->RscXSliderH, by a3\editor_f\config.bin/RscDisplayEditObject/Slider/ (original bin\config.bin)
+22:13:34 Updating base class RscText->RscPicture, by a3\editor_f\config.bin/RscDisplayEditObject/Preview/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayMissionLoad/Controls/B_OK/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButton, by a3\editor_f\config.bin/RscDisplayMissionSave/Controls/B_OK/ (original bin\config.bin)
+22:13:34 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoScrollbars/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoHScrollbars/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscControlsGroup, by a3\ui_f\config.bin/RscControlsGroupNoVScrollbars/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscText, by a3\ui_f\config.bin/RscLine/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscActiveText, by a3\ui_f\config.bin/RscActivePicture/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscButton, by a3\ui_f\config.bin/RscButtonTextOnly/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscShortcutButtonMain/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscButtonEditor/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscIGUIShortcutButton/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscGearShortcutButton/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscShortcutButton, by a3\ui_f\config.bin/RscButtonMenu/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuOK/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuCancel/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscButtonMenu, by a3\ui_f\config.bin/RscButtonMenuSteam/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscText, by a3\ui_f\config.bin/RscLoadingText/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscListBox, by a3\ui_f\config.bin/RscIGUIListBox/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscListNBox, by a3\ui_f\config.bin/RscIGUIListNBox/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackground/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUI/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUILeft/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUIRight/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscBackgroundGUIBottom/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUITop/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscText, by a3\ui_f\config.bin/RscBackgroundGUIDark/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscPictureKeepAspect, by a3\ui_f\config.bin/RscBackgroundLogo/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscMapControl, by a3\ui_f\config.bin/RscMapControlEmpty/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscPicture, by a3\ui_f\config.bin/CA_Mainback/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Back/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Title_Back/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->CA_Mainback, by a3\ui_f\config.bin/CA_Black_Back/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscTitle, by a3\ui_f\config.bin/CA_Title/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscPictureKeepAspect, by a3\ui_f\config.bin/CA_Logo/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->CA_Logo, by a3\ui_f\config.bin/CA_Logo_Small/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscButton, by a3\ui_f\config.bin/CA_RscButton/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->CA_RscButton, by a3\ui_f\config.bin/CA_RscButton_dialog/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscActiveText, by a3\ui_f\config.bin/CA_Ok/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_image/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_image2/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscText, by a3\ui_f\config.bin/CA_Ok_text/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscPicture, by a3\ui_f\config.bin/RscVignette/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscMapControlTooltip/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class RscUnitInfo->RscUnitInfoAirNoWeapon, by a3\ui_f\config.bin/RscInGameUI/RscUnitInfoAir/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class RscControlsGroup->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscInGameUI/RscTaskOverview/controls/TaskOverviewAssigned/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_OK/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_Cancel/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayDebug/Controls/B_Clear/ (original bin\config.bin)
+22:13:34 Updating base class ->RscText, by a3\ui_f\config.bin/RscDisplayCapture/controls/TimeLines/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonAverages/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonSavePreviousData/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCapture/controls/ButtonPreviousData/ (original bin\config.bin)
+22:13:34 Updating base class RscPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/IconPicture/ (original bin\config.bin)
+22:13:34 Updating base class IconPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/DlcOwnedIconPicture/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class IconPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayMain/DlcIconPicture/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class RscControlsGroup->RscControlsGroupNoScrollbars, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/OverviewGroup/ (original bin\config.bin)
+22:13:34 Updating base class RscButton->RscButtonSearch, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/SearchButton/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonCancel/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonGameOptions/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenuSteam, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonBuyDLC/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenu, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonRevert/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayCampaignLoad/controls/ButtonOK/ (original bin\config.bin)
+22:13:34 Updating base class RscListBox->RscCombo, by a3\ui_f\config.bin/RscDisplayCustomizeController/Steepness/ (original bin\config.bin)
+22:13:34 Updating base class ->RscStandardDisplay, by a3\ui_f\config.bin/RscDisplayControlSchemes/ (original bin\config.bin)
+22:13:34 Updating base class ButtonOK->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayControlSchemes/controls/ButtonCancel/ (original bin\config.bin)
+22:13:34 Updating base class RscButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayControlSchemes/controls/ButtonOK/ (original bin\config.bin)
+22:13:34 Updating base class RscPicture->RscPictureKeepAspect, by a3\ui_f\config.bin/RscDisplayFileSelectImage/controls/OverviewPicture/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayFieldManual/Controls/ButtonCancel/ (original bin\config.bin)
+22:13:34 Cannot delete class B_KickOff, it is referenced somewhere (used as a base class probably).
+22:13:34 Updating base class RscButton->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayPublishMission/controls/ButtonCancel/ (original bin\config.bin)
+22:13:34 Updating base class RscShortcutButton->RscButtonMenuOK, by a3\ui_f\config.bin/RscDisplayPublishMissionSelectTags/controls/ButtonOK/ (original bin\config.bin)
+22:13:34 Updating base class ButtonOK->RscButtonMenuCancel, by a3\ui_f\config.bin/RscDisplayPublishMissionSelectTags/controls/ButtonCancel/ (original bin\config.bin)
+22:13:34 Updating base class ->RscSubmenu, by a3\ui_f\config.bin/RscMainMenu/ (original bin\config.bin)
+22:13:34 Updating base class ->DistanceClose, by a3\ui_f\config.bin/CfgSimpleTasks/Icon3D/DistanceMid/ (original bin\config.bin)
+22:13:34 Updating base class ->DistanceClose, by a3\ui_f\config.bin/CfgSimpleTasks/Icon3D/DistanceLong/ (original bin\config.bin)
+22:13:34 Updating base class ->ctrlDefaultText, by a3\3den\config.bin/ctrlStatic/ (original a3\3den\config.bin)
+22:13:34 Updating base class ->ctrlActiveText, by a3\3den\config.bin/ctrlActivePicture/ (original a3\3den\config.bin)
+22:13:34 Updating base class ->ctrlDefaultText, by a3\3den\config.bin/ctrlStructuredText/ (original a3\3den\config.bin)
+22:13:34 Updating base class ->ctrlControlsGroup, by a3\3den\config.bin/ctrlControlsGroupNoScrollbars/ (original a3\3den\config.bin)
+22:13:34 Updating base class ->ctrlDefault, by a3\3den\config.bin/ctrlCheckbox/ (original a3\3den\config.bin)
+22:13:34 Updating base class ->ctrlCheckbox, by a3\3den\config.bin/ctrlCheckboxBaseline/ (original a3\3den\config.bin)
+22:13:34 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayOptionsAudio/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+22:13:34 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayOptionsAudio/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+22:13:34 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayConfigure/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+22:13:34 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayConfigure/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+22:13:34 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayConfigureAction/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+22:13:34 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayConfigureAction/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+22:13:34 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayConfigureControllers/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+22:13:34 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayConfigureControllers/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+22:13:34 Updating base class RscText->ctrlStaticBackgroundDisable, by a3\3den\config.bin/RscDisplayGameOptions/ControlsBackground/BackgroundDisable/ (original a3\3den\config.bin)
+22:13:34 Updating base class RscText->ctrlStaticBackgroundDisableTiles, by a3\3den\config.bin/RscDisplayGameOptions/ControlsBackground/BackgroundDisableTiles/ (original a3\3den\config.bin)
+22:13:34 Updating base class controls->, by a3\3den\config.bin/RscDisplayArcadeMap_Layout_2/Controls/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class controls->, by a3\3den\config.bin/RscDisplayArcadeMap_Layout_6/Controls/ (original a3\ui_f\config.bin)
+22:13:34 Updating base class ->ctrlControlsGroupNoScrollbars, by a3\3den\config.bin/Cfg3DEN/Attributes/Default/ (original a3\3den\config.bin)
+22:13:34 Updating base class ->ctrlStatic, by a3\3den\config.bin/Cfg3DEN/Attributes/Title/Controls/Title/ (original a3\3den\config.bin)
+22:13:34 Updating base class ->ctrlToolbox, by a3\3den\config.bin/Cfg3DEN/Attributes/Toolbox/Controls/Value/ (original a3\3den\config.bin)
+22:13:35 Cannot open C:\Users\Kim\AppData\Local\Arma 3\MonetizedServersCache\list.json
+22:13:35 Canceling the list loading process, the load of the file failed: C:\Users\Kim\AppData\Local\Arma 3\MonetizedServersCache\list.json
+22:13:35 Initializing Steam Manager
+22:13:35 Starting initial content check.
+22:13:35 Steam Manager initialized.
+22:13:35 
+22:13:35 ==== Loaded addons ====
+22:13:35 
+22:13:35 dta\bin.pbo - 149102
+22:13:35 dta\core.pbo - 129618
+22:13:35 dta\languagecore_f.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\anims_f_aow.pbo - 149768
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\characters_f_aow.pbo - 149965
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\data_f_aow.pbo - 149928
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\dubbing_f_aow.pbo - 149901
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\editorpreviews_f_aow.pbo - 149909
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\functions_f_aow.pbo - 149593
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\languagemissions_f_aow.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\language_f_aow.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\missions_f_aow.pbo - 150217
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\missions_f_aow_data.pbo - 150217
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\missions_f_aow_video.pbo - 149837
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\props_f_aow.pbo - 150020
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\sounds_f_aow.pbo - 149668
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\structures_f_aow.pbo - 149883
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\supplies_f_aow.pbo - 150149
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow\addons\ui_f_aow.pbo - 149917
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\air_f_enoch.pbo - 145904
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\anims_f_enoch.pbo - 149965
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\armor_f_enoch.pbo - 145904
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\cargoposes_f_enoch.pbo - 142478
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\characters_f_enoch.pbo - 149965
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\data_f_enoch.pbo - 150070
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\dubbing_radio_f_enoch.pbo - 150070
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\dubbing_radio_f_enoch_data.pbo - 150020
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\editorpreviews_f_enoch.pbo - 145440
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\functions_f_enoch.pbo - 148356
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\languagemissions_f_enoch.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\language_f_enoch.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\map_enoch.pbo - 148551
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\map_enoch_data.pbo - 145274
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\map_enoch_data_layers.pbo - 146184
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\map_enoch_scenes_f.pbo - 143336
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\missions_f_enoch.pbo - 149487
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\music_f_enoch.pbo - 147472
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\music_f_enoch_music.pbo - 147127
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\props_f_enoch.pbo - 148738
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\rocks_f_enoch.pbo - 148432
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\soft_f_enoch.pbo - 150071
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\sounds_f_enoch.pbo - 150153
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\static_f_enoch.pbo - 145904
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\structures_f_enoch.pbo - 148551
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\structures_f_enoch_civilian.pbo - 148739
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\structures_f_enoch_commercial.pbo - 148419
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\structures_f_enoch_cultural.pbo - 148739
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\structures_f_enoch_data.pbo - 148419
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\structures_f_enoch_furniture.pbo - 148419
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\structures_f_enoch_industrial.pbo - 148804
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\structures_f_enoch_infrastructure.pbo - 148551
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\structures_f_enoch_military.pbo - 150174
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\supplies_f_enoch.pbo - 150213
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\ui_f_enoch.pbo - 147095
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\vegetation_f_enoch.pbo - 150192
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch\addons\weapons_f_enoch.pbo - 150213
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\armor_f_tank.pbo - 150149
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\cargoposes_f_tank.pbo - 128283
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\characters_f_tank.pbo - 148392
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\data_f_tank.pbo - 128203
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\dubbing_f_tank.pbo - 127958
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\editorpreviews_f_tank.pbo - 137875
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\functions_f_tank.pbo - 125996
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\languagemissions_f_tank.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\language_f_tank.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\missions_f_tank.pbo - 150028
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\missions_f_tank_data.pbo - 128937
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\modules_f_tank.pbo - 147857
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\music_f_tank.pbo - 127912
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\props_f_tank.pbo - 131702
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\sounds_f_tank.pbo - 143095
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\structures_f_tank.pbo - 137876
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\ui_f_tank.pbo - 148551
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank\addons\weapons_f_tank.pbo - 150213
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tacops\addons\characters_f_tacops.ebo - 129739
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tacops\addons\data_f_tacops.ebo - 150102
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tacops\addons\dubbing_f_tacops.ebo - 129340
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tacops\addons\functions_f_tacops.ebo - 150182
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tacops\addons\languagemissions_f_tacops.ebo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tacops\addons\language_f_tacops.ebo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tacops\addons\missions_f_tacops.ebo - 144976
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tacops\addons\modules_f_tacops.ebo - 150149
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tacops\addons\music_f_tacops.ebo - 124064
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tacops\addons\sounds_f_tacops.ebo - 123795
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tacops\addons\ui_f_tacops.ebo - 148551
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\air_f_orange.pbo - 150020
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\cargoposes_f_orange.pbo - 126225
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\characters_f_orange.pbo - 148442
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\data_f_orange.pbo - 144284
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\dubbing_f_orange.pbo - 121689
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\editorpreviews_f_orange.pbo - 123173
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\functions_f_orange.pbo - 149339
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\languagemissions_f_orange.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\language_f_orange.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\missions_f_orange.pbo - 150176
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\modules_f_orange.pbo - 143632
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\music_f_orange.pbo - 120725
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\props_f_orange.pbo - 148864
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\soft_f_orange.pbo - 150071
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\sounds_f_orange.pbo - 145695
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\structures_f_orange.pbo - 147636
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\supplies_f_orange.pbo - 129371
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\ui_f_orange.pbo - 149706
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange\addons\weapons_f_orange.pbo - 149274
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\armor_f_argo.pbo - 129739
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\characters_f_patrol.pbo - 149127
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\data_f_argo.pbo - 128209
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\data_f_patrol.pbo - 141307
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\editorpreviews_f_argo.pbo - 142758
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\functions_f_patrol.pbo - 141510
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\languagemissions_f_patrol.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\language_f_argo.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\language_f_patrol.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\map_malden.pbo - 148936
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\map_malden_data.pbo - 135888
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\map_malden_data_layers.pbo - 135888
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\map_malden_scenes_f.pbo - 120026
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\missions_f_patrol.pbo - 126663
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\modules_f_patrol.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\music_f_argo.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\props_f_argo.pbo - 129371
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\rocks_f_argo.pbo - 148432
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\sounds_f_patrol.pbo - 119477
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\structures_f_argo.pbo - 147656
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\ui_f_patrol.pbo - 141307
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\vegetation_f_argo.pbo - 148432
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo\addons\weapons_f_patrol.pbo - 141307
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\air_f_jets.pbo - 146744
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\anims_f_jets.pbo - 123210
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\boat_f_destroyer.pbo - 143297
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\boat_f_jets.pbo - 150071
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\cargoposes_f_jets.pbo - 126225
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\characters_f_jets.pbo - 129739
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\data_f_destroyer.pbo - 132156
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\data_f_jets.pbo - 146856
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\data_f_sams.pbo - 132140
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\dubbing_f_jets.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\editorpreviews_f_destroyer.pbo - 132141
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\editorpreviews_f_jets.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\editorpreviews_f_sams.pbo - 132141
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\functions_f_destroyer.pbo - 150071
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\functions_f_jets.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\languagemissions_f_jets.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\language_f_destroyer.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\language_f_jets.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\language_f_sams.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\missions_f_jets.pbo - 130755
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\modules_f_jets.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\music_f_jets.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\props_f_destroyer.pbo - 132141
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\props_f_jets.pbo - 129371
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\sounds_f_jets.pbo - 141706
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\static_f_destroyer.pbo - 140243
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\static_f_jets.pbo - 146744
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\static_f_sams.pbo - 146744
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\ui_f_jets.pbo - 126137
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\weapons_f_destroyer.pbo - 132268
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\weapons_f_jets.pbo - 148847
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets\addons\weapons_f_sams.pbo - 149414
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\air_f_exp.pbo - 150071
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\anims_f_exp.pbo - 126506
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\armor_f_exp.pbo - 141671
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\boat_f_exp.pbo - 150071
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\cargoposes_f_exp.pbo - 126224
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\characters_f_exp.pbo - 149878
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\characters_f_oldman.pbo - 148698
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\data_f_exp.pbo - 148936
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\data_f_oldman.pbo - 148580
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\dubbing_f_exp.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\dubbing_f_oldman.pbo - 148756
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\dubbing_radio_f_exp.pbo - 119458
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\dubbing_radio_f_exp_data_chi.pbo - 119458
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\dubbing_radio_f_exp_data_engfre.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\dubbing_radio_f_exp_data_fre.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\editorpreviews_f_exp.pbo - 147098
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\editorpreviews_f_oldman.pbo - 148621
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\functions_f_exp.pbo - 144006
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\functions_f_oldman.pbo - 148553
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\languagemissions_f_exp.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\languagemissions_f_oldman.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\language_f_exp.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\language_f_oldman.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\map_data_exp.pbo - 136265
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\map_tanoabuka.pbo - 148936
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\map_tanoabuka_data.pbo - 135884
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\map_tanoabuka_data_layers.pbo - 121192
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\map_tanoabuka_data_layers_00_00.pbo - 121192
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\map_tanoa_scenes_f.pbo - 123527
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\missions_f_exp.pbo - 144315
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\missions_f_exp_data.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\missions_f_exp_video.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\missions_f_oldman.pbo - 150213
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\modules_f_exp.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\modules_f_oldman.pbo - 148553
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\music_f_exp.pbo - 119477
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\music_f_exp_music.pbo - 119477
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\music_f_oldman.pbo - 148553
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\music_f_oldman_music.pbo - 148679
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\props_f_exp.pbo - 147637
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\props_f_oldman.pbo - 148553
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\rocks_f_exp.pbo - 148432
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\soft_f_exp.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\soft_f_oldman.pbo - 148580
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\sounds_f_exp.pbo - 149339
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\sounds_f_oldman.pbo - 148553
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\static_f_exp.pbo - 119478
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\static_f_oldman.pbo - 148580
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\structures_f_exp.pbo - 148419
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\structures_f_exp_civilian.pbo - 148739
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\structures_f_exp_commercial.pbo - 148419
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\structures_f_exp_cultural.pbo - 148419
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\structures_f_exp_data.pbo - 148419
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\structures_f_exp_industrial.pbo - 148419
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\structures_f_exp_infrastructure.pbo - 148551
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\structures_f_oldman.pbo - 150089
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\supplies_f_exp.pbo - 148079
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\supplies_f_oldman.pbo - 148553
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\ui_f_exp.pbo - 123398
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\ui_f_oldman.pbo - 149216
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\vegetation_f_exp.pbo - 148432
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion\addons\weapons_f_exp.pbo - 150071
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\anims_f_mark.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\characters_f_mark.pbo - 148392
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\data_f_mark.pbo - 129371
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\dubbing_f_mark.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\dubbing_f_mp_mark.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\functions_f_mark.pbo - 150154
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\functions_f_mp_mark.pbo - 129434
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\languagemissions_f_mark.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\languagemissions_f_mp_mark.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\language_f_mark.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\language_f_mp_mark.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\missions_f_mark.pbo - 122301
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\missions_f_mark_data.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\missions_f_mark_video.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\missions_f_mp_mark.pbo - 141704
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\missions_f_mp_mark_data.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\modules_f_mark.pbo - 148886
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\modules_f_mp_mark.pbo - 143568
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\music_f_mark.pbo - 119477
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\music_f_mark_music.pbo - 119477
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\sounds_f_mark.pbo - 143218
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\static_f_mark.pbo - 146756
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\structures_f_mark.pbo - 149003
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\supplies_f_mark.pbo - 140562
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\ui_f_mark.pbo - 119478
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\ui_f_mp_mark.pbo - 119478
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark\addons\weapons_f_mark.pbo - 149339
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\air_f_heli.pbo - 150071
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\anims_f_heli.pbo - 123210
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\boat_f_heli.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\cargoposes_f_heli.pbo - 126231
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\data_f_heli.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\dubbing_f_heli.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\functions_f_heli.pbo - 123022
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\languagemissions_f_heli.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\language_f_heli.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\missions_f_heli.pbo - 129397
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\missions_f_heli_data.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\missions_f_heli_video.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\modules_f_heli.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\music_f_heli.pbo - 119477
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\music_f_heli_music.pbo - 119477
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\soft_f_heli.pbo - 129742
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\sounds_f_heli.pbo - 119478
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\structures_f_heli.pbo - 141968
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\supplies_f_heli.pbo - 145695
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli\addons\ui_f_heli.pbo - 119478
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\anims_f_kart.pbo - 123210
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\characters_f_kart.pbo - 148392
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\data_f_kart.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\languagemissions_f_kart.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\language_f_kart.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\missions_f_kart.pbo - 149274
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\missions_f_kart_data.pbo - 119459
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\modules_f_kart.pbo - 150028
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\modules_f_kart_data.pbo - 149274
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\soft_f_kart.pbo - 150071
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\sounds_f_kart.pbo - 125381
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\structures_f_kart.pbo - 123419
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\ui_f_kart.pbo - 119478
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart\addons\weapons_f_kart.pbo - 138461
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\curator\addons\data_f_curator.pbo - 149127
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\curator\addons\data_f_curator_music.pbo - 119457
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\curator\addons\functions_f_curator.pbo - 150096
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\curator\addons\language_f_curator.pbo - 150220
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\curator\addons\missions_f_curator.pbo - 121570
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\curator\addons\modules_f_curator.pbo - 150096
+22:13:35 C:\Program Files (x86)\Steam\steamapps\common\Arma 3\curator\addons\ui_f_curator.pbo - 148756
+22:13:35 addons\3den.pbo - 150198
+22:13:35 addons\3den_language.pbo - 150220
+22:13:35 addons\a3.pbo - unknown
+22:13:35 addons\air_f.pbo - 150071
+22:13:35 addons\air_f_beta.pbo - 149975
+22:13:35 addons\air_f_epb.pbo - 145119
+22:13:35 addons\air_f_epc.pbo - 150048
+22:13:35 addons\air_f_gamma.pbo - 150048
+22:13:35 addons\animals_f.pbo - 150071
+22:13:35 addons\animals_f_beta.pbo - 150071
+22:13:35 addons\anims_f.pbo - 149800
+22:13:35 addons\anims_f_bootcamp.pbo - 123209
+22:13:35 addons\anims_f_data.pbo - 148601
+22:13:35 addons\anims_f_epa.pbo - 134499
+22:13:35 addons\anims_f_epc.pbo - 121358
+22:13:35 addons\anims_f_exp_a.pbo - 123209
+22:13:35 addons\anims_f_mod.pbo - 135280
+22:13:35 addons\armor_f.pbo - 149414
+22:13:35 addons\armor_f_beta.pbo - 150071
+22:13:35 addons\armor_f_epb.pbo - 149965
+22:13:35 addons\armor_f_epc.pbo - 148819
+22:13:35 addons\armor_f_gamma.pbo - 150071
+22:13:35 addons\baseconfig_f.pbo - 119457
+22:13:35 addons\boat_f.pbo - 150071
+22:13:35 addons\boat_f_beta.pbo - 132036
+22:13:35 addons\boat_f_epc.pbo - 131911
+22:13:35 addons\boat_f_gamma.pbo - 127529
+22:13:35 addons\cargoposes_f.pbo - 149489
+22:13:35 addons\characters_f.pbo - 150020
+22:13:35 addons\characters_f_beta.pbo - 149965
+22:13:35 addons\characters_f_bootcamp.pbo - 149274
+22:13:35 addons\characters_f_epa.pbo - 148392
+22:13:35 addons\characters_f_epb.pbo - 148392
+22:13:35 addons\characters_f_epc.pbo - 148392
+22:13:35 addons\characters_f_gamma.pbo - 148392
+22:13:35 addons\data_f.pbo - 150213
+22:13:35 addons\data_f_bootcamp.pbo - 129618
+22:13:35 addons\data_f_exp_a.pbo - 119457
+22:13:35 addons\data_f_exp_b.pbo - 119457
+22:13:35 addons\data_f_mod.pbo - 131534
+22:13:35 addons\data_f_warlords.pbo - 147096
+22:13:35 addons\drones_f.pbo - 146855
+22:13:35 addons\dubbing_f.pbo - 119457
+22:13:35 addons\dubbing_f_beta.pbo - 119457
+22:13:35 addons\dubbing_f_bootcamp.pbo - 119457
+22:13:35 addons\dubbing_f_epa.pbo - 119457
+22:13:35 addons\dubbing_f_epb.pbo - 119457
+22:13:35 addons\dubbing_f_epc.pbo - 119457
+22:13:35 addons\dubbing_f_gamma.pbo - 122449
+22:13:35 addons\dubbing_f_warlords.pbo - 136700
+22:13:35 addons\dubbing_radio_f.pbo - 119457
+22:13:35 addons\dubbing_radio_f_data_eng.pbo - 119457
+22:13:35 addons\dubbing_radio_f_data_engb.pbo - 119458
+22:13:35 addons\dubbing_radio_f_data_gre.pbo - 119458
+22:13:35 addons\dubbing_radio_f_data_per.pbo - 150218
+22:13:35 addons\dubbing_radio_f_data_vr.pbo - 119458
+22:13:35 addons\editorpreviews_f.pbo - 149003
+22:13:35 addons\editor_f.pbo - 121103
+22:13:35 addons\functions_f.pbo - 150219
+22:13:35 addons\functions_f_bootcamp.pbo - 150217
+22:13:35 addons\functions_f_epa.pbo - 138704
+22:13:35 addons\functions_f_epc.pbo - 119458
+22:13:35 addons\functions_f_exp_a.pbo - 122619
+22:13:35 addons\functions_f_warlords.pbo - 150013
+22:13:35 addons\languagemissions_f.pbo - 150220
+22:13:35 addons\languagemissions_f_beta.pbo - 150220
+22:13:35 addons\languagemissions_f_bootcamp.pbo - 150220
+22:13:35 addons\languagemissions_f_epa.pbo - 150220
+22:13:35 addons\languagemissions_f_epb.pbo - 150220
+22:13:35 addons\languagemissions_f_epc.pbo - 150220
+22:13:35 addons\languagemissions_f_exp_a.pbo - 150220
+22:13:35 addons\languagemissions_f_gamma.pbo - 150220
+22:13:35 addons\language_f.pbo - 150220
+22:13:35 addons\language_f_beta.pbo - 150220
+22:13:35 addons\language_f_bootcamp.pbo - 150220
+22:13:35 addons\language_f_epa.pbo - 150220
+22:13:35 addons\language_f_epb.pbo - 150220
+22:13:35 addons\language_f_epc.pbo - 150220
+22:13:35 addons\language_f_exp_a.pbo - 150220
+22:13:35 addons\language_f_exp_b.pbo - 150220
+22:13:35 addons\language_f_gamma.pbo - 150220
+22:13:35 addons\language_f_mod.pbo - 150220
+22:13:35 addons\language_f_warlords.pbo - 150220
+22:13:35 addons\map_altis.pbo - 148442
+22:13:35 addons\map_altis_data.pbo - 135904
+22:13:35 addons\map_altis_data_layers.pbo - 135913
+22:13:35 addons\map_altis_data_layers_00_00.pbo - 0000
+22:13:35 addons\map_altis_data_layers_00_01.pbo - 0000
+22:13:35 addons\map_altis_data_layers_01_00.pbo - 0000
+22:13:35 addons\map_altis_data_layers_01_01.pbo - 0000
+22:13:35 addons\map_altis_scenes_f.pbo - 119459
+22:13:35 addons\map_data.pbo - 134124
+22:13:35 addons\map_stratis.pbo - 148442
+22:13:35 addons\map_stratis_data.pbo - 135888
+22:13:35 addons\map_stratis_data_layers.pbo - 135888
+22:13:35 addons\map_stratis_scenes_f.pbo - 119459
+22:13:35 addons\map_vr.pbo - 135900
+22:13:35 addons\map_vr_scenes_f.pbo - 119459
+22:13:35 addons\misc_f.pbo - 119459
+22:13:35 addons\missions_f.pbo - 141704
+22:13:35 addons\missions_f_beta.pbo - 150208
+22:13:35 addons\missions_f_beta_data.pbo - 149165
+22:13:35 addons\missions_f_beta_video.pbo - 119459
+22:13:35 addons\missions_f_bootcamp.pbo - 145509
+22:13:35 addons\missions_f_bootcamp_data.pbo - 119459
+22:13:35 addons\missions_f_bootcamp_video.pbo - 119459
+22:13:35 addons\missions_f_data.pbo - 119459
+22:13:35 addons\missions_f_epa.pbo - 144315
+22:13:35 addons\missions_f_epa_data.pbo - 119459
+22:13:35 addons\missions_f_epa_video.pbo - 119459
+22:13:35 addons\missions_f_epb.pbo - 119459
+22:13:35 addons\missions_f_epc.pbo - 141704
+22:13:35 addons\missions_f_exp_a.pbo - 141704
+22:13:35 addons\missions_f_exp_a_data.pbo - 119459
+22:13:35 addons\missions_f_gamma.pbo - 150176
+22:13:35 addons\missions_f_gamma_data.pbo - 119459
+22:13:35 addons\missions_f_gamma_video.pbo - 119459
+22:13:35 addons\missions_f_video.pbo - 119459
+22:13:35 addons\missions_f_warlords.pbo - 145437
+22:13:35 addons\modules_f.pbo - 148754
+22:13:35 addons\modules_f_beta.pbo - 150198
+22:13:35 addons\modules_f_beta_data.pbo - 149274
+22:13:35 addons\modules_f_bootcamp.pbo - 119459
+22:13:35 addons\modules_f_data.pbo - 122470
+22:13:35 addons\modules_f_epb.pbo - 134655
+22:13:35 addons\modules_f_exp_a.pbo - 119459
+22:13:35 addons\modules_f_warlords.pbo - 144205
+22:13:35 addons\music_f.pbo - 119459
+22:13:35 addons\music_f_bootcamp.pbo - 119459
+22:13:35 addons\music_f_bootcamp_music.pbo - 119459
+22:13:35 addons\music_f_epa.pbo - 119459
+22:13:35 addons\music_f_epa_music.pbo - 119459
+22:13:35 addons\music_f_epb.pbo - 119459
+22:13:35 addons\music_f_epb_music.pbo - 119459
+22:13:35 addons\music_f_epc.pbo - 119459
+22:13:35 addons\music_f_epc_music.pbo - 119477
+22:13:35 addons\music_f_music.pbo - 119477
+22:13:35 addons\plants_f.pbo - 148432
+22:13:35 addons\props_f_exp_a.pbo - 147637
+22:13:35 addons\roads_f.pbo - 148432
+22:13:35 addons\rocks_f.pbo - 149339
+22:13:35 addons\signs_f.pbo - 148432
+22:13:35 addons\soft_f.pbo - 150070
+22:13:35 addons\soft_f_beta.pbo - 150071
+22:13:35 addons\soft_f_bootcamp.pbo - 150071
+22:13:35 addons\soft_f_epc.pbo - 150070
+22:13:35 addons\soft_f_gamma.pbo - 150183
+22:13:35 addons\sounds_f.pbo - 150174
+22:13:35 addons\sounds_f_arsenal.pbo - 143218
+22:13:35 addons\sounds_f_bootcamp.pbo - 119477
+22:13:35 addons\sounds_f_characters.pbo - 143095
+22:13:35 addons\sounds_f_environment.pbo - 143095
+22:13:35 addons\sounds_f_epb.pbo - 126923
+22:13:35 addons\sounds_f_epc.pbo - 125380
+22:13:35 addons\sounds_f_exp_a.pbo - 119477
+22:13:35 addons\sounds_f_mod.pbo - 131534
+22:13:35 addons\sounds_f_sfx.pbo - 143211
+22:13:35 addons\sounds_f_vehicles.pbo - 146855
+22:13:35 addons\static_f.pbo - 150149
+22:13:35 addons\static_f_beta.pbo - 132365
+22:13:35 addons\static_f_gamma.pbo - 122615
+22:13:35 addons\structures_f.pbo - 150204
+22:13:35 addons\structures_f_bootcamp.pbo - 143436
+22:13:35 addons\structures_f_data.pbo - 148419
+22:13:35 addons\structures_f_epa.pbo - 149252
+22:13:35 addons\structures_f_epb.pbo - 148421
+22:13:35 addons\structures_f_epc.pbo - 148804
+22:13:35 addons\structures_f_exp_a.pbo - 132665
+22:13:35 addons\structures_f_households.pbo - 148419
+22:13:35 addons\structures_f_ind.pbo - 150048
+22:13:35 addons\structures_f_mil.pbo - 150149
+22:13:35 addons\structures_f_wrecks.pbo - 148419
+22:13:35 addons\uifonts_f.pbo - 119478
+22:13:35 addons\uifonts_f_data.pbo - 150106
+22:13:35 addons\ui_f.pbo - 150219
+22:13:35 addons\ui_f_bootcamp.pbo - 119478
+22:13:35 addons\ui_f_data.pbo - 149913
+22:13:35 addons\ui_f_exp_a.pbo - 119478
+22:13:35 addons\weapons_f.pbo - 150071
+22:13:35 addons\weapons_f_beta.pbo - 150174
+22:13:35 addons\weapons_f_bootcamp.pbo - 141713
+22:13:35 addons\weapons_f_epa.pbo - 148783
+22:13:35 addons\weapons_f_epb.pbo - 137810
+22:13:35 addons\weapons_f_epc.pbo - 130416
+22:13:35 addons\weapons_f_gamma.pbo - 148783
+22:13:35 addons\weapons_f_mod.pbo - 149339
+22:13:35 
+22:13:35 =======================
+22:13:35 
+22:13:35 ============================================================================================= List of mods ===============================================================================================
+22:13:35 modsReadOnly = true
+22:13:35 safeModsActivated = false
+22:13:35 customMods = false
+22:13:35 hash = 'A3FFCA7331551F0F6CC55C8EE6A9B1AA796EFCE1'
+22:13:35 hashShort = '6d9623e9'
+22:13:35                                               name |               modDir |    default |   official |               origin |                                     hash | hashShort | fullPath
+22:13:35 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+22:13:35                                  Arma 3 Art of War |                  aow |       true |       true |             GAME DIR | 390994cf16b42a3d2d66ba81086f8c55c409b9cd |  72981a53 | C:\Program Files (x86)\Steam\steamapps\common\Arma 3\aow
+22:13:35                          Arma 3 Contact (Platform) |                enoch |       true |       true |             GAME DIR | fc3605e7e1f23b57f4b3d63c27b80859ee2fcfd1 |  24e4cde4 | C:\Program Files (x86)\Steam\steamapps\common\Arma 3\enoch
+22:13:35                                       Arma 3 Tanks |                 tank |       true |       true |             GAME DIR | c50c2215c5e0cdde895176ed92f9adab230d0894 |  f3f23bb3 | C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tank
+22:13:35                                     Arma 3 Tac-Ops |               tacops |       true |       true |             GAME DIR | fc5f6419eabb941e5e8ba42c5cc1d2526d4878eb |  f51e31ac | C:\Program Files (x86)\Steam\steamapps\common\Arma 3\tacops
+22:13:35                                 Arma 3 Laws of War |               orange |       true |       true |             GAME DIR | 2deeb8e38af6ddfbef086de0da59346c50446c8b |  72b922be | C:\Program Files (x86)\Steam\steamapps\common\Arma 3\orange
+22:13:35                                      Arma 3 Malden |                 argo |       true |       true |             GAME DIR | e09a462597c5f61cfc8d66bc8b70a51f651ccca1 |  70c5be89 | C:\Program Files (x86)\Steam\steamapps\common\Arma 3\argo
+22:13:35                                        Arma 3 Jets |                 jets |       true |       true |             GAME DIR | c66c0015f481056447c44f882817939ebdc7ef81 |  56fd684e | C:\Program Files (x86)\Steam\steamapps\common\Arma 3\jets
+22:13:35                                        Arma 3 Apex |            expansion |       true |       true |             GAME DIR | bb95ca11fca4fff143095b8323d4bd2039d647a6 |  4bb8bc5e | C:\Program Files (x86)\Steam\steamapps\common\Arma 3\expansion
+22:13:35                                    Arma 3 Marksmen |                 mark |       true |       true |             GAME DIR | 6daf76785392f8e5b29d5bf9a6c541784a9780b4 |  d37b9e31 | C:\Program Files (x86)\Steam\steamapps\common\Arma 3\mark
+22:13:35                                 Arma 3 Helicopters |                 heli |       true |       true |             GAME DIR | b09867ddc73d11586b7fe7af76be19933bd50951 |  76825c11 | C:\Program Files (x86)\Steam\steamapps\common\Arma 3\heli
+22:13:35                                       Arma 3 Karts |                 kart |       true |       true |             GAME DIR | 9b6114c9282eaae8418ca1b52c3625338b0858b1 |  fb00256f | C:\Program Files (x86)\Steam\steamapps\common\Arma 3\kart
+22:13:35                                        Arma 3 Zeus |              curator |       true |       true |             GAME DIR | 99a1958987abc289bf6f98f4c3e7625d5472ed7e |  bdc75b9a | C:\Program Files (x86)\Steam\steamapps\common\Arma 3\curator
+22:13:35                                             Arma 3 |                   A3 |       true |       true |    NOT FOUND (Empty) |                                          |           | 
+22:13:35 ==========================================================================================================================================================================================================
+22:13:35 DX11 - Initializing DX11 engine.
+22:13:35 DX11 - Using DXGI adapter 0 (detected in config).
+22:13:35 DX11 - Using DXGI adapter 0.
+22:13:35     - adapter description : NVIDIA GeForce RTX 3070
+22:13:35     - adapter vendor ID : 4318
+22:13:35     - adapter device ID : 9352
+22:13:35     - adapter subsys ID : 2284589123
+22:13:35     - adapter revision  : 161
+22:13:35     - dedicated video memory : 4138729472
+22:13:35     - dedicated system memory : 0
+22:13:35     - shared system memory : 4218660864
+22:13:35     - driver version : 51295/r512_48
+22:13:35 InitSound ...
+22:13:35 Selected Audio Output: Sankakuuloke (GameDAC Chat) - Channels: 2, Freq: 48000
+22:13:35 InitSound - complete
+22:13:36 Detected Joystick: Controller (Razer Xbox 360 Controller)
+22:13:36     0 ... X Axis [1,30]
+22:13:36     1 ... Y Axis [1,31]
+22:13:36     2 ... Z Axis [1,32]
+22:13:36     3 ... X Rotation [1,33]
+22:13:36     4 ... Y Rotation [1,34]
+22:13:36 Detected Joystick: Joystick (Razer Huntsman V2 Analog)
+22:13:36     0 ... X Axis [1,30]
+22:13:36     1 ... Y Axis [1,31]
+22:13:36     2 ... Z Axis [1,32]
+22:13:36     3 ... X Rotation [1,33]
+22:13:36     4 ... Y Rotation [1,34]
+22:13:36     5 ... Z Rotation [1,35]
+22:13:37 PhysX3 SDK Init started ...
+22:13:37 PhysX3 SDK Init ended.
+22:13:39 SimulWeather - Cloud Renderer - noise texture file is not specified!
+22:13:41 Loading movesType CfgGesturesMale
+22:13:41 Creating action map cache
+22:13:41 MovesType CfgGesturesMale load time 46.0 ms
+22:13:41 Loading movesType CfgMovesMaleSdr
+22:13:41 Reading cached action map data
+22:13:42 Warning: looped for animation: a3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_loop.rtm differs (looped now 1)! MoveName: hubbriefing_loop
+22:13:42 Warning: looped for animation: a3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_loop.rtm differs (looped now 0)! MoveName: hubbriefing_ext
+22:13:42 Warning: looped for animation: a3\anims_f_epa\data\anim\sdr\cts\hubcleaned\spectator\hubspectator_stand.rtm differs (looped now 1)! MoveName: hubspectator_stand_contact
+22:13:42 MovesType CfgMovesMaleSdr load time 826.0 ms
+22:13:42 Starting mission:
+22:13:42  Mission file: introExp
+22:13:42  Mission world: Stratis
+22:13:42  Mission directory: a3\map_stratis_scenes_f\scenes\introExp.Stratis\
+22:13:42 No more slot to add connection at 033057 (3386.8,5735.4)
+22:13:43 Strange convex component145 in a3\plants_f\tree\t_pinuss2s_b_f.p3d:geometryView
+22:13:43 Strange convex component149 in a3\plants_f\tree\t_pinuss2s_b_f.p3d:geometryView
+22:13:52 Weather was forced to change
+22:13:54 Loading movesType CfgMovesFishes_F
+22:13:54 Creating action map cache
+22:13:57 Loading movesType CfgMovesBird
+22:13:57 Creating action map cache
+22:14:04 Loading movesType CfgMovesButterfly
+22:14:04 Reading cached action map data
+22:14:23 Loading movesType CfgMovesSharks_F
+22:14:23 Creating action map cache
+22:14:29 Loading movesType CfgMovesTurtle_F
+22:14:29 Creating action map cache
+22:15:12 Starting mission:
+22:15:12  Mission file: KingOfTheHill_by_Sa-Matra_for_CODE4 (__CUR_MP)
+22:15:12  Mission world: Altis
+22:15:12  Mission directory: mpmissions\__CUR_MP.Altis\
+22:15:14 Strange convex component202 in a3\structures_f\households\house_small01\d_house_small_01_v1_f.p3d:geometryView
+22:15:14 Strange convex component203 in a3\structures_f\households\house_small01\d_house_small_01_v1_f.p3d:geometryView
+22:15:14 Strange convex component115 in a3\structures_f\households\house_big01\u_house_big_01_v1_f.p3d:geometryView
+22:15:14 Strange convex component117 in a3\structures_f\households\house_big01\u_house_big_01_v1_f.p3d:geometryView
+22:15:16 Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 1c not found
+22:15:16 Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 2c not found
+22:15:16 Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 3c not found
+22:15:16 Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 4c not found
+22:15:16 Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 5c not found
+22:15:16 Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 6c not found
+22:15:16 Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 7c not found
+22:15:16 Wrong vertex mapping for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Selection 8c not found
+22:15:16 Wrong geometry convex component mapping  for person collision geometry found in a3\characters_f\civil\c_nikos.p3d. Convex component number 3. not found
+22:15:16 I_APC_Wheeled_03_cannon_F: indicator_com_smoke_1 - unknown animation source smoke_source
+22:15:16 I_APC_Wheeled_03_cannon_F: indicator_com_smoke_2 - unknown animation source smoke_source
+22:15:16 Warning: Convex component representing Slide not found
+22:15:16 Strange convex component24 in a3\structures_f\households\house_small02\i_house_small_02_v2_dam_f.p3d:geometryView
+22:15:16 Strange convex component24 in a3\structures_f\households\house_small02\u_house_small_02_v1_dam_f.p3d:geometryView
+22:15:16 Warning: Convex component representing Track_L not found
+22:15:16 Warning: Convex component representing Track_R not found
+22:15:16 O_MBT_04_command_F: damage_decal_left_3_unhide - unknown animation source damage_slat_left
+22:15:16 O_MBT_04_command_F: damage_camonet_left_3_hide - unknown animation source damage_slat_left
+22:15:16 O_MBT_04_command_F: damage_decal_right_3_unhide - unknown animation source damage_slat_right
+22:15:16 O_MBT_04_command_F: damage_camonet_right_3_hide - unknown animation source damage_slat_right
+22:15:16 O_MBT_04_command_F: hidehull - unknown animation source hidehull
+22:15:16 O_MBT_04_command_F: hideturret - unknown animation source hideturret
+22:15:16 O_APC_Tracked_02_cannon_F: cannon_ready_light - unknown animation source muzzle_hide_cannon
+22:15:16 Warning: Convex component representing Slide not found
+22:15:16 B_AFV_Wheeled_01_up_cannon_F: zasleh_rot - unknown animation source muzzle_rot
+22:15:16 B_AFV_Wheeled_01_up_cannon_F: hideturret - unknown animation source hideturret
+22:15:16 O_LSV_02_unarmed_black_F: unarmed_main_turret_hide - unknown animation source turrethide
+22:15:16 O_LSV_02_unarmed_black_F: unarmed_doors_hide - unknown animation source doorshide
+22:15:16 O_LSV_02_unarmed_black_F: mainturret - unknown animation source mainturret
+22:15:16 O_LSV_02_unarmed_black_F: maingun - unknown animation source maingun
+22:15:16 O_LSV_02_unarmed_black_F: maingunner - unknown animation source maingun
+22:15:16 O_LSV_02_unarmed_black_F: opticsfix - unknown animation source maingun
+22:15:16 O_LSV_02_unarmed_black_F: magazine_reload_hide_1 - unknown animation source voronamuzzle_reloadmagazine
+22:15:16 O_LSV_02_AT_F: unarmed_main_turret_hide - unknown animation source turrethide
+22:15:16 O_LSV_02_AT_F: unarmed_doors_hide - unknown animation source doorshide
+22:15:16 Duplicate HitPoint name 'HitTurret' in 'I_MRAP_03_gmg_F'
+22:15:16 Duplicate HitPoint name 'HitGun' in 'I_MRAP_03_gmg_F'
+22:15:16 B_APC_Tracked_01_rcws_F: cannon_ready_light - unknown animation source muzzle_hide_cannon
+22:15:16 Cannot create object 2:18780 with type[Turret], param[turret], NMT code[250]: 
+22:15:16 Cannot create object 2:19119 with type[Turret], param[turret], NMT code[250]: 
+22:15:16 Cannot create object 2:19137 with type[Turret], param[turret], NMT code[250]: 
+22:15:16 Cannot create object 2:19164 with type[Turret], param[turret], NMT code[250]: 
+22:15:16 Cannot create object 2:19247 with type[Turret], param[turret], NMT code[250]: 
+22:15:16 Cannot create object 2:19404 with type[Turret], param[turret], NMT code[250]: 
+22:15:16 Cannot create object 2:19405 with type[Turret], param[turret], NMT code[250]: 
+22:15:16 Cannot create object 2:19452 with type[Turret], param[turret], NMT code[250]: 
+22:15:16 Cannot create object 2:19469 with type[Turret], param[turret], NMT code[250]: 
+22:15:16 No speaker given for 'Kostis Costas'
+22:15:16 No speaker given for 'Aris Nicolau'
+22:15:16 No speaker given for 'Petros Manelia'
+22:15:16 No speaker given for 'Aris Petridis'
+22:15:16 No speaker given for 'Nikas Liosi'
+22:15:16 No speaker given for 'Evangelos Papadopoulos'
+22:15:16 Setting invalid pitch 0.0000 for O Alpha 1-1:1 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for B Alpha 1-1:1 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for R Alpha 1-1:1 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for Logic_LobbyLeader
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-6:3 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-4:4 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-5:5 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-1:6 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-5:7 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-3:8 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-1:9 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-3:10 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-2:11 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-4:13 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-1:14 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-1:15 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-5:16 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-1:17 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-5:18 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-6:19 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-3:20 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-2:21 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-5:22 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:23 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-3:24 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-3:25 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-2:26 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:27 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-4:28 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:29 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-3:30 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-1:31 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-1:32 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-1:34 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-1:36 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-3:38 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:39 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:40 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:41 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:42 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-6:43 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:44 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:45 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:47 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-6:48 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:50 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:53 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-1:54 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-4:55 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-1:56 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-6:57 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-3:58 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 1-2:1 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for L Alpha 1-1:1 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for L Alpha 1-2:1 REMOTE
+22:15:16 No speaker given for 'Theofilos Xenakis'
+22:15:16 No speaker given for 'Dimitiros Cosmos'
+22:15:16 No speaker given for 'Apostolos Liosi'
+22:15:16 No speaker given for 'Rosi Ioannou'
+22:15:16 No speaker given for 'Andreas Strambopoulos'
+22:15:16 No speaker given for 'Kostakis Savalas'
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-5:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 2-6:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 3-1:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 3-2:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 3-3:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 3-4:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 3-5:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 3-6:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 4-1:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 4-2:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 4-3:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 4-4:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 4-5:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Alpha 4-6:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 1-1:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 1-2:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 1-3:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 1-4:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 1-5:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 1-6:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 2-1:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 2-2:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 2-3:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 2-4:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 2-5:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 2-6:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 3-1:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 3-2:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 3-3:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 3-5:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 3-4:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 3-6:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 4-1:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 4-2:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 4-3:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 4-4:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 4-5:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Bravo 4-6:2 REMOTE
+22:15:16 Setting invalid pitch 0.0000 for C Charlie 1-1:2 REMOTE
+22:15:16 Client: Object 2:18780 (type Type_135) not found.
+22:15:16 Client: Object 2:18780 (type Type_263) not found.
+22:15:16 Client: Object 2:18780 (type Type_469) not found.
+22:15:16 Time was adjusted to keep it same as on server.
+22:15:16 Client: Object 2:19119 (type Type_135) not found.
+22:15:16 Client: Object 2:19119 (type Type_263) not found.
+22:15:16 Client: Object 2:19119 (type Type_469) not found.
+22:15:17 Client: Object 2:19137 (type Type_135) not found.
+22:15:17 Client: Object 2:19137 (type Type_263) not found.
+22:15:17 Client: Object 2:19137 (type Type_469) not found.
+22:15:17 Client: Object 2:19164 (type Type_135) not found.
+22:15:17 Client: Object 2:19164 (type Type_263) not found.
+22:15:17 Client: Object 2:19164 (type Type_469) not found.
+22:15:17 Client: Object 2:19247 (type Type_135) not found.
+22:15:17 Client: Object 2:19247 (type Type_263) not found.
+22:15:17 Client: Object 2:19247 (type Type_469) not found.
+22:15:17 Client: Object 2:19404 (type Type_135) not found.
+22:15:17 Client: Object 2:19404 (type Type_263) not found.
+22:15:17 Client: Object 2:19404 (type Type_469) not found.
+22:15:17 Client: Object 2:19405 (type Type_135) not found.
+22:15:17 Client: Object 2:19405 (type Type_263) not found.
+22:15:17 Client: Object 2:19405 (type Type_469) not found.
+22:15:17 Client: Object 2:19452 (type Type_135) not found.
+22:15:17 Client: Object 2:19452 (type Type_263) not found.
+22:15:17 Client: Object 2:19452 (type Type_469) not found.
+22:15:17 Client: Object 2:19469 (type Type_135) not found.
+22:15:17 Client: Object 2:19469 (type Type_263) not found.
+22:15:17 Client: Object 2:19469 (type Type_469) not found.
+22:15:17 GlassType: unknown type: rhsusf_shemagh2_gogg_tan
+22:15:17 Ragdoll - loading of ragdoll source "Soldier" started.
+22:15:17 Ragdoll - loading of ragdoll source "Soldier" finished successfully.
+22:15:17 "====================== A3 King of Hill Client started ==========================="
+22:15:17 41
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Client: Unhandled user message Type_389
+22:15:17 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:15:17 "Profile version key"
+22:15:17 "KOTH5"
+22:15:18 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:15:18 Weather was forced to change
+22:15:18 Scripting function 'bis_fnc_execvm' is not allowed to be remotely executed
+22:15:18  Mission id: f168bdc4fd999e6a53a697867ebeeba8607e1bc5
+22:15:18 Observer R Bravo 2-1:1 (Jason) REMOTE in cargo of R Bravo 2-1:1 (Jason) REMOTE; message was repeated in last 60 sec: 0
+22:15:19 "Got weather update from the server!"
+22:15:19 "	Set rainbow to 1 over 0 s (server value = 1)"
+22:15:19 "	Set wind to [1.04328,0,true] over 0 s (server value = [1.33513,0.0180064,true])"
+22:15:19 "	Set rain to 0 over 0 s (server value = 0)"
+22:15:19 "	Set fog to 0.0177543 over 54 s (server value = 0)"
+22:15:19 "	Set lightnings to 0 over 0 s (server value = 0)"
+22:15:19 "	Set overcast to 0.113049 over 0 s (server value = 0.113049)"
+22:15:19 "	Set gusts to 0.0239269 over 0 s (server value = 0.0239269)"
+22:15:19 "	Set waves to -0.0177862 over 0 s (server value = 0)"
+22:15:19 "call UI_initStuff;"
+22:15:20 Client: Object 835:62 (type Type_95) not found.
+22:15:20 Client: Object 835:62 (type Type_96) not found.
+22:15:20 Client: Object 835:62 (type Type_461) not found.
+22:15:21 Time was adjusted to keep it same as on server.
+22:15:21 Fresnel k must be >0, given n=2.51,k=0
+22:15:25 Strange convex component317 in a3\rocks_f\blunt\bluntrock_wallv.p3d:geometry
+22:15:25 Strange convex component318 in a3\rocks_f\blunt\bluntrock_wallv.p3d:geometry
+22:15:25 Strange convex component319 in a3\rocks_f\blunt\bluntrock_wallv.p3d:geometry
+22:15:25 Strange convex component317 in a3\rocks_f\blunt\bluntrock_wallv.p3d:geometryView
+22:15:25 Strange convex component318 in a3\rocks_f\blunt\bluntrock_wallv.p3d:geometryView
+22:15:25 Strange convex component319 in a3\rocks_f\blunt\bluntrock_wallv.p3d:geometryView
+22:15:40 Client: Object 876:56 (type Type_95) not found.
+22:15:40 Client: Object 876:56 (type Type_461) not found.
+22:15:40 Client: Object 876:56 (type Type_96) not found.
+22:16:08 O_LSV_02_armed_black_F: unarmed_main_turret_hide - unknown animation source turrethide
+22:16:08 O_LSV_02_armed_black_F: unarmed_doors_hide - unknown animation source doorshide
+22:16:08 O_LSV_02_armed_black_F: magazine_reload_hide_1 - unknown animation source voronamuzzle_reloadmagazine
+22:16:19 Observer R Bravo 2-1:1 (Jason) REMOTE in cargo of R Bravo 2-1:1 (Jason) REMOTE; message was repeated in last 60 sec: 994
+22:16:21 Client: Object 926:16 (type Type_95) not found.
+22:16:21 Client: Object 926:16 (type Type_96) not found.
+22:16:21 Client: Object 926:16 (type Type_461) not found.
+22:16:27 "Got weather update from the server!"
+22:16:27 "	Set rainbow to 1 over 600 s (server value = 1)"
+22:16:27 "	Set wind to [1.40743,0,true] over 600 s (server value = [1.305,-0.0184882,true])"
+22:16:27 "	Set rain to 0 over 600 s (server value = 0)"
+22:16:27 "	Set fog to 0.00233439 over 200 s (server value = 0)"
+22:16:27 "	Set lightnings to 0 over 600 s (server value = 0)"
+22:16:27 "	Set overcast to 0.37335 over 600 s (server value = 0.113049)"
+22:16:27 "	Set gusts to 0.0320889 over 600 s (server value = 0.0239269)"
+22:16:27 "	Set waves to -0.0494342 over 600 s (server value = 0)"
+22:16:27 "Got weather update from the server!"
+22:16:27 "	Set fog to 0.0154767 over 119 s (server value = 0)"
+22:16:43 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:16:48 R Alpha 2-3:1 (Bozo) (Qilin (Unarmed)): Unknown action ListRightVehicleDisplay, target R Alpha 2-3:1 (Bozo)
+22:16:48 R Alpha 2-3:1 (Bozo) (Qilin (Unarmed)): Unknown action ListLeftVehicleDisplay, target R Alpha 2-3:1 (Bozo)
+22:16:49 R Alpha 2-3:1 (Bozo) (Qilin (Unarmed)): Unknown action ListRightVehicleDisplay, target R Alpha 2-3:1 (Bozo)
+22:16:50 R Alpha 2-3:1 (Bozo) (Qilin (Unarmed)): Unknown action ListRightVehicleDisplay, target R Alpha 2-3:1 (Bozo)
+22:16:50 R Alpha 2-3:1 (Bozo) (Qilin (Unarmed)): Unknown action ListLeftVehicleDisplay, target R Alpha 2-3:1 (Bozo)
+22:16:50 R Alpha 2-3:1 (Bozo) (Qilin (Unarmed)): Unknown action ListLeftVehicleDisplay, target R Alpha 2-3:1 (Bozo)
+22:16:51 R Alpha 2-3:1 (Bozo) (Qilin (Unarmed)): Unknown action ListRightVehicleDisplay, target R Alpha 2-3:1 (Bozo)
+22:16:57 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:17:19 Observer R Bravo 2-1:1 (Jason) REMOTE in cargo of R Bravo 2-1:1 (Jason) REMOTE; message was repeated in last 60 sec: 3500
+22:17:28 Client: Object 549:467 (type Type_461) not found.
+22:18:16 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:18:19 Observer R Bravo 2-1:1 (Jason) REMOTE in cargo of R Bravo 2-1:1 (Jason) REMOTE; message was repeated in last 60 sec: 6072
+22:18:35 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:18:50 Client: Object 914:17 (type Type_95) not found.
+22:18:50 Client: Object 914:17 (type Type_96) not found.
+22:18:50 Client: Object 914:17 (type Type_461) not found.
+22:19:07 Strange convex component24 in a3\structures_f\households\house_small02\i_house_small_02_v3_dam_f.p3d:geometryView
+22:19:13 Scripting function 'bis_fnc_effectkilledsecondarie...' is not allowed to be remotely executed
+22:19:28 Duplicate weapon Throw detected for I_soldier_F
+22:19:28 Duplicate weapon Put detected for I_soldier_F
+22:19:33 Strange convex component24 in a3\structures_f\households\house_small02\i_house_small_02_v1_dam_f.p3d:geometryView
+22:19:35 Client: Object 789:100 (type Type_95) not found.
+22:19:35 Client: Object 789:100 (type Type_96) not found.
+22:19:35 Client: Object 789:100 (type Type_461) not found.
+22:19:36 Client: Object 41:565 (type Type_96) not found.
+22:19:36 Client: Object 41:565 (type Type_95) not found.
+22:19:36 Client: Object 41:565 (type Type_461) not found.
+22:20:08 unable to connect anim. source "Hit" to hitpoint "HitGear" in O_Plane_Fighter_02_F
+22:20:11 Client: Object 739:223 (type Type_96) not found.
+22:20:11 Client: Object 739:223 (type Type_95) not found.
+22:20:11 Client: Object 739:223 (type Type_461) not found.
+22:20:38 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:20:48 R Alpha 2-3:1 (Bozo) (To-199 Neophron (CAS)): Unknown action ListLeftVehicleDisplay, target R Alpha 2-3:1 (Bozo)
+22:20:48 R Alpha 2-3:1 (Bozo) (To-199 Neophron (CAS)): Unknown action ListLeftVehicleDisplay, target R Alpha 2-3:1 (Bozo)
+22:20:49 R Alpha 2-3:1 (Bozo) (To-199 Neophron (CAS)): Unknown action ListLeftVehicleDisplay, target R Alpha 2-3:1 (Bozo)
+22:20:50 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:20:50 R Alpha 2-3:1 (Bozo) (To-199 Neophron (CAS)): Unknown action ListLeftVehicleDisplay, target R Alpha 2-3:1 (Bozo)
+22:21:18 Warning: Convex component representing Track_L not found
+22:21:18 Warning: Convex component representing Track_R not found
+22:21:18 Warning: Convex component representing Slide not found
+22:21:18 I_LT_01_AT_F: cannon_ready_light - unknown animation source muzzle_hide_cannon
+22:21:18 I_LT_01_AT_F: indicator_com_turret_mfd_driver - unknown animation source obsturret
+22:21:18 I_LT_01_AT_F: indicator_com_turret_mfd_gunner - unknown animation source obsturret
+22:21:18 unable to connect anim. source "Hit" to hitpoint "HitComTurret" in I_LT_01_AT_F
+22:21:26 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:21:45 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:21:58 Strange convex component322 in a3\structures_f\research\dome_big_f.p3d:geometryFire
+22:21:58 Strange convex component327 in a3\structures_f\research\dome_big_f.p3d:geometryFire
+22:22:05 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:22:10 Client: Object 905:59 (type Type_461) not found.
+22:22:10 Client: Object 905:59 (type Type_95) not found.
+22:22:10 Client: Object 905:59 (type Type_96) not found.
+22:22:18 "Got weather update from the server!"
+22:22:18 "	Set fog to 0.0165916 over 122 s (server value = 0)"
+22:22:57 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:23:07 Scripting function 'bis_fnc_effectkilledairdestruc...' is not allowed to be remotely executed
+22:23:29 Warning Message: Picture loading.jpg not found
+22:23:44 Warning Message: Picture loading.jpg not found
+22:23:48 EPE manager release (15|60|0)
+22:23:48 Number of actors in scene after release: 15
+22:23:48 EPE manager release (0|15|0)
+22:23:48 Warning Message: Picture loading.jpg not found
+22:24:09 Starting mission:
+22:24:09  Mission file: Infantry_KingOfTheHill_by_Sa-Matra_for_CODE4 (__CUR_MP)
+22:24:09  Mission world: Altis
+22:24:09  Mission directory: mpmissions\__CUR_MP.Altis\
+22:24:10 JS_S_Caesar_BTT: Invalid parent bone 'zbytek' for 'lights_hide'
+22:24:10 Array tex in bin\config.bin/CfgVehicles/Plane_Civil_01_base_F/Damage/ not even
+22:24:10 C_Plane_Civil_01_F: mfd_center_needle_oil_psi - unknown animation source hitengine
+22:24:10 C_Plane_Civil_01_F: hull_lights_coll_on_white_1_blinking - unknown animation source collisionlightwhite1t_source
+22:24:10 C_Plane_Civil_01_F: hull_lights_coll_on_white_2_blinking - unknown animation source collisionlightwhite2r_source
+22:24:10 In Vehicle: a3\air_f_exp\plane_civil_01\plane_civil_01_basic_f.p3d missing cargo 0 get in direction point
+22:24:10 In Vehicle: a3\air_f_exp\plane_civil_01\plane_civil_01_basic_f.p3d missing cargo 0 get in direction point
+22:24:10 Cannot create object 2:17629 with type[Turret], param[turret], NMT code[250]: 
+22:24:10 No speaker given for 'Vasilis Papadopoulos'
+22:24:10 No speaker given for 'Nikos Nicolau'
+22:24:10 No speaker given for 'Panos Costas'
+22:24:10 No speaker given for 'Vasilis Papadopoulos'
+22:24:10 No speaker given for 'Dimitirou Athanasiadis'
+22:24:10 No speaker given for 'Kostakis Lagos'
+22:24:10 No speaker given for 'Biton Manelia'
+22:24:10 No speaker given for 'Panagiotis Constantinou'
+22:24:10 No speaker given for 'Nikas Savalas'
+22:24:10 Setting invalid pitch 0.0000 for O Alpha 1-1:1 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for B Alpha 1-1:1 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for R Alpha 1-1:1 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for Logic_LobbyLeader
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-4:3 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-4:4 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-4:5 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-6:6 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-4:7 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-1:8 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-3:9 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-5:10 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-3:12 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-5:13 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-5:15 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-4:16 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-5:18 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-2:19 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-6:20 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-6:21 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-2:22 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-6:23 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-4:24 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-3:25 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-6:26 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-2:27 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-1:28 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-2:29 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-2:30 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-1:31 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-1:32 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-6:34 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-6:35 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-3:36 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-1:37 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-1:38 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-6:39 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-1:40 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-5:41 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-2:42 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-2:43 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-5:44 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-2:45 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-6:47 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-4:48 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-2:49 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-5:51 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 1-2:1 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for L Alpha 1-1:1 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for L Alpha 1-2:1 REMOTE
+22:24:10 No speaker given for 'Aris Floros'
+22:24:10 No speaker given for 'Alexandros Oikonomopulu'
+22:24:10 No speaker given for 'Vasilis Liosi'
+22:24:10 No speaker given for 'Nikos Nicolau'
+22:24:10 No speaker given for 'Andreas Dimitriadis'
+22:24:10 No speaker given for 'Alexandros Petridis'
+22:24:10 No speaker given for 'Stavros Roumpesi'
+22:24:10 No speaker given for 'Giannis Costas'
+22:24:10 No speaker given for 'Argyris Mylonaki'
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 2-6:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 3-1:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 3-1:3 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 3-2:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 3-3:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 3-4:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 3-5:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 3-6:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 4-2:3 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 4-1:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 4-3:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 4-4:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 4-5:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Alpha 4-6:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 1-1:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 1-2:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 1-4:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 1-3:3 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 1-5:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 1-6:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 2-1:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 2-2:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 2-3:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 2-4:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 2-5:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 2-6:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 3-2:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 3-3:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 3-4:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 3-5:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 3-6:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 4-1:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 4-2:2 REMOTE
+22:24:10 Setting invalid pitch 0.0000 for C Bravo 4-3:2 REMOTE
+22:24:10 Time was adjusted to keep it same as on server.
+22:24:10 Client: Object 2:17629 (type Type_135) not found.
+22:24:10 Client: Object 2:17629 (type Type_263) not found.
+22:24:10 Client: Object 2:17629 (type Type_469) not found.
+22:24:10 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:24:10 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:24:10 GlassType: unknown type: Lib_hood_Dos_5
+22:24:11 "====================== A3 King of Hill Client started ==========================="
+22:24:11 41
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 Client: Unhandled user message Type_389
+22:24:11 O Alpha 2-1:1 ([aCNe] peolluaP) REMOTE: Getting out while IsMoveOutInProgress
+22:24:11 "Profile version key"
+22:24:11 "KOTH5"
+22:24:11 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:24:11 Scripting function 'bis_fnc_execvm' is not allowed to be remotely executed
+22:24:11 Weather was forced to change
+22:24:11  Mission id: e0f28b9bcf9f17ef7bb5047a2b50b62142977617
+22:24:12 "call UI_initStuff;"
+22:24:13 "Got weather update from the server!"
+22:24:13 "	Set rainbow to 1 over 803 s (server value = 1)"
+22:24:13 "	Set wind to [1.33807,0,true] over 803 s (server value = [1.63257,-0.00185462,true])"
+22:24:13 "	Set rain to 0 over 803 s (server value = 0)"
+22:24:13 "	Set fog to 0.0159526 over 64 s (server value = 0)"
+22:24:13 "	Set lightnings to 0 over 803 s (server value = 0)"
+22:24:13 "	Set overcast to 0.395866 over 803 s (server value = 0.395866)"
+22:24:13 "	Set gusts to 0.116093 over 803 s (server value = 0.0874431)"
+22:24:13 "	Set waves to -0.0913434 over 803 s (server value = 0.0276415)"
+22:24:19 Time was adjusted to keep it same as on server.
+22:24:30 Observer B Alpha 3-6:1 (Aceton) REMOTE in cargo of B Alpha 3-6:1 (Aceton) REMOTE; message was repeated in last 60 sec: 2924
+22:24:47 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:24:49 Client: Object 584:94 (type Type_96) not found.
+22:24:49 Client: Object 584:94 (type Type_461) not found.
+22:24:49 Client: Object 584:94 (type Type_95) not found.
+22:24:59 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:25:01 B Alpha 4-1:1 (Bozo) (AFV-4 Gorgon): Unknown action ListRightVehicleDisplay, target B Alpha 4-1:1 (Bozo)
+22:25:43 "Got weather update from the server!"
+22:25:43 "	Set fog to 0.00203307 over 142 s (server value = 0)"
+22:25:52 Client: Object 575:218 (type Type_95) not found.
+22:25:52 Client: Object 575:218 (type Type_461) not found.
+22:25:52 Client: Object 575:218 (type Type_96) not found.
+22:25:58 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:25:58 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:25:58 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:25:58 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:25:58 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:25:58 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:26:00 Client: Object 596:79 (type Type_440) not found.
+22:27:05 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:27:54 Scripting function 'bis_fnc_effectkilledsecondarie...' is not allowed to be remotely executed
+22:28:10 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:28:12 Duplicate weapon Throw detected for B_Soldier_F
+22:28:12 Duplicate weapon Put detected for B_Soldier_F
+22:29:05 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:29:09 "Got weather update from the server!"
+22:29:09 "	Set fog to 0.0176066 over 171 s (server value = 0)"
+22:29:16 Observer O Alpha 3-4:1 (Bauer) REMOTE in cargo of O Alpha 3-4:1 (Bauer) REMOTE; message was repeated in last 60 sec: 2582
+22:30:53 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:30:58 Client: Object 694:26 (type Type_96) not found.
+22:30:58 Client: Object 694:26 (type Type_95) not found.
+22:30:58 Client: Object 694:26 (type Type_461) not found.
+22:32:05 Client: Object 658:94 (type Type_95) not found.
+22:32:05 Client: Object 658:94 (type Type_96) not found.
+22:32:05 Client: Object 658:94 (type Type_461) not found.
+22:32:22 Client: Object 563:315 (type Type_95) not found.
+22:32:22 Client: Object 563:315 (type Type_96) not found.
+22:32:22 Client: Object 563:315 (type Type_461) not found.
+22:32:45 Observer B Alpha 1-5:1 (pkuti) REMOTE in cargo of B Alpha 1-5:1 (pkuti) REMOTE; message was repeated in last 60 sec: 99
+22:33:13 Fresnel k must be >0, given n=1.4,k=0
+22:33:28 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:33:48 "Got weather update from the server!"
+22:33:48 "	Set fog to 0.0178747 over 141 s (server value = 0)"
+22:34:32 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:35:12 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:35:22 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:35:58 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:35:59 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:35:59 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:35:59 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:35:59 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:35:59 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:35:59 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:36:15 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:36:23 GlassType: unknown type: rhssaf_veil_Green
+22:36:47 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:37:35 "Got weather update from the server!"
+22:37:35 "	Set rainbow to 1 over 1200 s (server value = 1)"
+22:37:35 "	Set wind to [1.218,0,true] over 1200 s (server value = [1.81438,0.071215,true])"
+22:37:35 "	Set rain to 0 over 1200 s (server value = 0)"
+22:37:35 "	Set fog to 0.0167794 over 400 s (server value = 0)"
+22:37:35 "	Set lightnings to 0 over 1200 s (server value = 0)"
+22:37:35 "	Set overcast to 0.178001 over 1200 s (server value = 0.395866)"
+22:37:35 "	Set gusts to 0.0150391 over 1200 s (server value = 0.116093)"
+22:37:35 "	Set waves to -0.0798799 over 1200 s (server value = 0.0036324)"
+22:37:35 "Got weather update from the server!"
+22:37:35 "	Set fog to 0.00368697 over 171 s (server value = 0)"
+22:37:57 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:38:49 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:39:52 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:40:01 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:40:36 O_LSV_02_unarmed_arid_F: unarmed_main_turret_hide - unknown animation source turrethide
+22:40:36 O_LSV_02_unarmed_arid_F: unarmed_doors_hide - unknown animation source doorshide
+22:40:36 O_LSV_02_unarmed_arid_F: mainturret - unknown animation source mainturret
+22:40:36 O_LSV_02_unarmed_arid_F: maingun - unknown animation source maingun
+22:40:36 O_LSV_02_unarmed_arid_F: maingunner - unknown animation source maingun
+22:40:36 O_LSV_02_unarmed_arid_F: opticsfix - unknown animation source maingun
+22:40:36 O_LSV_02_unarmed_arid_F: magazine_reload_hide_1 - unknown animation source voronamuzzle_reloadmagazine
+22:41:43 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:41:47 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:41:47 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:41:47 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:41:47 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:41:47 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:41:47 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:42:06 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:42:07 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:42:07 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:42:07 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:42:07 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:42:07 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:42:07 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:42:10 SetFace error: class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:42:10 Error: Error during SetFace - class CfgFaces.Man_A3.TIOW_MarineHead_07 not found
+22:42:13 Observer R Alpha 2-4:1 (Nickelberry Niclas) REMOTE in cargo of R Alpha 2-4:1 (Nickelberry Niclas) REMOTE; message was repeated in last 60 sec: 1422
+22:42:27 "Got weather update from the server!"
+22:42:27 "	Set fog to 0.000768178 over 173 s (server value = 0)"
+22:43:09 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:43:17 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:43:39 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:43:40 Fresnel n must be >0, given n=0,k=1.4
+22:44:00 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:44:00 Setting invalid pitch 0.0000 for C Alpha 1-1:3 REMOTE
+22:44:13 Client: Object 714:27 (type Type_96) not found.
+22:45:13 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:45:46 Client: Object 668:53 (type Type_95) not found.
+22:45:46 Client: Object 668:53 (type Type_96) not found.
+22:45:46 Client: Object 668:53 (type Type_461) not found.
+22:45:46 Client: Object 668:54 (type Type_461) not found.
+22:45:46 Client: Object 668:54 (type Type_96) not found.
+22:45:46 Client: Object 668:54 (type Type_95) not found.
+22:46:00 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:46:07 Client: Object 2:18034 (type Type_135) not found.
+22:46:16 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:46:34 Duplicate weapon Throw detected for B_Soldier_F
+22:46:34 Duplicate weapon Put detected for B_Soldier_F
+22:46:41 Client: Object 596:113 (type Type_95) not found.
+22:46:41 Client: Object 596:113 (type Type_461) not found.
+22:46:41 Client: Object 596:113 (type Type_96) not found.
+22:46:49 Client: Object 707:24 (type Type_95) not found.
+22:46:49 Client: Object 707:24 (type Type_461) not found.
+22:46:49 Client: Object 707:24 (type Type_96) not found.
+22:47:25 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:47:33 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:47:45 Duplicate weapon Throw detected for B_Soldier_F
+22:47:45 Duplicate weapon Put detected for B_Soldier_F
+22:47:57 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:48:18 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:48:33 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:48:38 "Got weather update from the server!"
+22:48:38 "	Set fog to 0.0117945 over 193 s (server value = 0)"
+22:49:01 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:49:02 Observer R Alpha 2-4:1 (Nickelberry Niclas) REMOTE in cargo of R Alpha 2-4:1 (Nickelberry Niclas) REMOTE; message was repeated in last 60 sec: 1105
+22:49:06 Client: Object 280:453 (type Type_96) not found.
+22:49:06 Client: Object 280:453 (type Type_95) not found.
+22:49:06 Client: Object 280:453 (type Type_461) not found.
+22:49:07 Client: Object 644:147 (type Type_461) not found.
+22:49:07 Client: Object 644:147 (type Type_96) not found.
+22:49:07 Client: Object 644:147 (type Type_95) not found.
+22:49:46 Client: Object 726:15 (type Type_95) not found.
+22:49:46 Client: Object 726:15 (type Type_96) not found.
+22:49:46 Client: Object 726:15 (type Type_461) not found.
+22:50:06 Client: Object 596:122 (type Type_96) not found.
+22:50:06 Client: Object 596:122 (type Type_95) not found.
+22:50:06 Client: Object 596:122 (type Type_461) not found.
+22:50:21 Setting invalid pitch 0.0000 for C Alpha 1-1:2 REMOTE
+22:51:06 Client: Object 596:126 (type Type_96) not found.
+22:51:16 EPE manager release (32|99|0)
+22:51:16 Number of joints in scene after release: 30
+22:51:16 Number of actors in scene after release: 64
+22:51:16 EPE manager release (0|64|0)
+22:51:16 Number of joints in scene after release: 30
+22:51:16 Number of actors in scene after release: 32
+22:51:16 EPE manager release (30|32|0)
+22:51:16 Number of actors in scene after release: 32
+22:51:16 EPE manager release (0|32|0)
+22:51:16 Starting mission:
+22:51:16  Mission file: introOrange
+22:51:16  Mission world: Altis
+22:51:16  Mission directory: a3\missions_f_orange\scenes\introOrange.Altis\
+22:51:20 Land_wpp_Turbine_V1_off_F: mxlgenerator - unknown animation source ::time (defined in AnimationSources::time)
+22:51:20 Land_wpp_Turbine_V1_off_F: mxlmeter - unknown animation source ::timeRndOffset (defined in AnimationSources::timeRndOffset)
+22:51:20 Land_wpp_Turbine_V1_off_F: mxlprop - unknown animation source ::timeRndOffset (defined in AnimationSources::timeRndOffset)
+22:51:20 Fresnel n must be >0, given n=0,k=10
+22:51:21 Weather was forced to change
+22:51:21 C_Truck_02_covered_F: rear_hide - unknown animation source rear_hide
+22:51:23 Shutdown normally
+22:51:24 SimulWeather - Cloud Renderer - noise texture file is not specified!
+22:51:24 Deinitialized shape [Class: "C_Soldier_VR_F"; Shape: "a3\characters_f_bootcamp\common\vr_soldier_f.p3d";]
+22:51:24 Deinitialized shape [Class: "O_sniper_F"; Shape: "a3\characters_f\opfor\o_sniper.p3d";]
+22:51:24 Deinitialized shape [Class: "C_Man_Paramedic_01_F"; Shape: "a3\characters_f_orange\uniforms\c_paramedic_01_f.p3d";]
+22:51:24 Deinitialized shape [Class: "I_helipilot_F"; Shape: "a3\characters_f\common\coveralls.p3d";]
+22:51:24 Deinitialized shape [Class: "I_Story_Crew_F"; Shape: "a3\characters_f_tank\uniforms\u_tank_crew_f.p3d";]
+22:51:24 Deinitialized shape [Class: "O_helipilot_F"; Shape: "a3\characters_f\common\pilot_f.p3d";]
+22:51:24 Deinitialized shape [Class: "I_pilot_F"; Shape: "a3\characters_f\common\pilot_f.p3d";]
+22:51:24 Deinitialized shape [Class: "I_CBRN_Man_Oversuit_01_AAF_F"; Shape: "a3\characters_f_enoch\uniforms\cbrn_suit_01_f.p3d";]
+22:51:24 Deinitialized shape [Class: "I_diver_F"; Shape: "a3\characters_f\common\diver_slotable.p3d";]
+22:51:24 Deinitialized shape [Class: "C_Uniform_FormalSuit_01_gray_F"; Shape: "a3\characters_f_aow\uniforms\formalsuit_01_f.p3d";]
+22:51:24 Deinitialized shape [Class: "I_Sniper_F"; Shape: "a3\characters_f_beta\indep\ia_sniper.p3d";]
+22:51:24 Deinitialized shape [Class: "B_sniper_F"; Shape: "a3\characters_f\blufor\b_sniper.p3d";]
+22:51:24 Deinitialized shape [Class: "I_E_Uniform_01_sweater_F"; Shape: "a3\characters_f_bootcamp\guerrilla\ig_guerrilla_6_1.p3d";]
+22:51:24 Deinitialized shape [Class: "I_officer_F"; Shape: "a3\characters_f_beta\indep\ia_officer.p3d";]
+22:51:24 Deinitialized shape [Class: "O_officer_F"; Shape: "a3\characters_f\opfor\o_officer.p3d";]
+22:51:24 Deinitialized shape [Class: "I_ghillie_ard_F"; Shape: "a3\characters_f_mark\indep\i_fullghillie_f.p3d";]
+22:51:24 Deinitialized shape [Class: "I_ghillie_sard_F"; Shape: "a3\characters_f_mark\indep\i_fullghillie_f.p3d";]
+22:51:24 Deinitialized shape [Class: "I_ghillie_lsh_F"; Shape: "a3\characters_f_mark\indep\i_fullghillie_f.p3d";]
+22:51:24 Deinitialized shape [Class: "O_R_Gorka_brown_F"; Shape: "a3\characters_f_enoch\uniforms\gorka_01_f.p3d";]
+22:51:24 Deinitialized shape [Class: "O_R_Gorka_camo_F"; Shape: "a3\characters_f_enoch\uniforms\gorka_01_f.p3d";]
+22:51:24 Deinitialized shape [Class: "O_R_Gorka_black_F"; Shape: "a3\characters_f_enoch\uniforms\gorka_01_f.p3d";]
+22:51:24 Deinitialized shape [Class: "I_G_Soldier_F"; Shape: "a3\characters_f_gamma\guerrilla\ig_guerrilla1_1.p3d";]
+22:51:24 Deinitialized shape [Class: "O_ghillie_sard_F"; Shape: "a3\characters_f_mark\opfor\o_fullghillie_f.p3d";]
+22:51:24 Deinitialized shape [Class: "O_ghillie_lsh_F"; Shape: "a3\characters_f_mark\opfor\o_fullghillie_f.p3d";]
+22:51:24 Deinitialized shape [Class: "O_ghillie_ard_F"; Shape: "a3\characters_f_mark\opfor\o_fullghillie_f.p3d";]
+22:51:24 Deinitialized shape [Class: "I_Soldier_lite_F"; Shape: "a3\characters_f_beta\indep\ia_soldier_02.p3d";]
+22:51:24 Deinitialized shape [Class: "O_Soldier_F"; Shape: "a3\characters_f\opfor\o_soldier_01.p3d";]
+22:51:24 Deinitialized shape [Class: "O_soldierU_F"; Shape: "a3\characters_f\opfor\o_soldier_01.p3d";]
+22:51:24 Deinitialized shape [Class: "I_G_Story_Protagonist_F"; Shape: "a3\characters_f_epb\guerrilla\ig_guerrilla5_1.p3d";]
+22:51:24 Deinitialized shape [Class: "B_ghillie_ard_F"; Shape: "a3\characters_f_mark\blufor\b_fullghillie_f.p3d";]
+22:51:24 Deinitialized shape [Class: "B_ghillie_sard_F"; Shape: "a3\characters_f_mark\blufor\b_fullghillie_f.p3d";]
+22:51:24 Deinitialized shape [Class: "B_ghillie_lsh_F"; Shape: "a3\characters_f_mark\blufor\b_fullghillie_f.p3d";]
+22:51:24 Deinitialized shape [Class: "I_soldier_F"; Shape: "a3\characters_f_beta\indep\ia_soldier_01.p3d";]
+22:51:24 Deinitialized shape [Class: "C_Orestes"; Shape: "a3\characters_f\civil\c_orestes.p3d";]
+22:51:24 Deinitialized shape [Class: "C_Nikos"; Shape: "a3\characters_f\civil\c_nikos.p3d";]
+22:51:24 Deinitialized shape [Class: "I_G_Soldier_AR_F"; Shape: "a3\characters_f_gamma\guerrilla\ig_guerrilla2_1.p3d";]
+22:51:24 Deinitialized shape [Class: "B_CTRG_Soldier_2_arid_F"; Shape: "a3\characters_f_exp\blufor\b_ctrg_soldier_02_f.p3d";]
+22:51:24 Deinitialized shape [Class: "B_Soldier_SL_F"; Shape: "a3\characters_f\blufor\b_soldier_03.p3d";]
+22:51:24 Deinitialized shape [Class: "B_CTRG_soldier_AR_A_F"; Shape: "a3\characters_f\blufor\b_soldier_03.p3d";]
+22:51:24 Deinitialized shape [Class: "B_soldier_AR_F"; Shape: "a3\characters_f\blufor\b_soldier_02.p3d";]
+22:51:24 Deinitialized shape [Class: "B_CTRG_soldier_engineer_exp_F"; Shape: "a3\characters_f\blufor\b_soldier_02.p3d";]
+22:51:24 Deinitialized shape [Class: "B_Soldier_F"; Shape: "a3\characters_f\blufor\b_soldier_01.p3d";]
+22:51:24 Deinitialized shape [Class: "B_CTRG_soldier_GL_LAT_F"; Shape: "a3\characters_f\blufor\b_soldier_01.p3d";]
+22:51:24 Deinitialized shape [Class: "Underwear_F"; Shape: "a3\characters_f\common\basicbody.p3d";]
+22:51:24 Deinitialized shape [Class: "C_Man_casual_4_F"; Shape: "a3\characters_f\civil\c_man_casual_shorts_f.p3d";]
+22:51:24 Deinitialized shape [Class: "C_IDAP_Man_AidWorker_05_F"; Shape: "a3\characters_f\civil\c_poloshirtpants.p3d";]
+22:51:24 Deinitialized shape [Class: "C_Man_casual_1_F"; Shape: "a3\characters_f\civil\c_poloshirtpants.p3d";]
+22:51:24 Deinitialized shape [Class: "C_IDAP_Man_AidWorker_02_F"; Shape: "a3\characters_f\civil\i_c_soldier_bandit_3_f.p3d";]
+22:51:24 Deinitialized shape [Class: "C_man_polo_4_F"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+22:51:24 Deinitialized shape [Class: "C_man_polo_5_F"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+22:51:24 Deinitialized shape [Class: "C_man_1"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+22:51:24 Deinitialized shape [Class: "C_man_polo_3_F"; Shape: "a3\characters_f\civil\c_poloshirt.p3d";]
+22:51:24 c:\bis\source\stable\futura\lib\network\networkserver.cpp ClearNetServer:NOT IMPLEMENTED - briefing!
+22:51:25 Error: entity [FxCartridge_556] still has its shape, ref_count=2
+22:51:25 Error: entity [ProxyFlag_Auto] still has its shape, ref_count=3
+22:51:27 Extensions:

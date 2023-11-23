@@ -1,0 +1,526 @@
+{
+	"name": "test-my-code",
+	"displayName": "TestMyCode",
+	"version": "2.2.4",
+	"description": "TestMyCode extension for Visual Studio Code",
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"tmc",
+		"TestMyCode",
+		"test",
+		"code",
+		"multi-root ready"
+	],
+	"bugs": {
+		"url": "https://github.com/rage/tmc-vscode/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rage/tmc-vscode.git"
+	},
+	"license": "MIT",
+	"publisher": "moocfi",
+	"main": "./dist/extension",
+	"scripts": {
+		"ci:all": "npm ci && cd backend && npm ci",
+		"clean-local-rust-config": "cd backend && cd cli && rm -rf tmc-vscode_plugin",
+		"eslint": "eslint --fix . --ext .js,.ts",
+		"eslint-check": "eslint . --ext .js,.ts",
+		"postinstall": "babel node_modules/ts-results --out-dir node_modules/ts-results --plugins=@babel/plugin-transform-modules-commonjs",
+		"lint-check": "npm run eslint-check && npm run prettier-check",
+		"prepare": "husky install",
+		"prettier": "prettier --write --ignore-path \"./.eslintignore\" \"./**/*.{html,js,json,jsx,ts,yml}\"",
+		"prettier-check": "prettier --check --ignore-path \"./.eslintignore\" \"./**/*.{html,js,json,jsx,ts,yml}\"",
+		"release": "./bin/publishRelease.sh",
+		"setup-ultimate": "git clean -X -d -f && git submodule update --init && npm run ci:all && cd backend && npm run setup",
+		"pretest": "cross-env NODE_ENV=development BACKEND=mockBackend npm run webpack",
+		"test": "node ./bin/runTests.js",
+		"test-integration": "npm run pretest && node ./bin/runIntegration.js",
+		"test-integration-only": "node ./bin/runIntegration.js",
+		"update-submodules": "git submodule foreach git pull origin master",
+		"vscode:prepublish": "cross-env NODE_ENV=production npm run webpack",
+		"webpack": "webpack",
+		"webpack:watch": "webpack --watch",
+		"tsc": "tsc",
+		"playwright-test": "xvfb-maybe playwright test",
+		"playwright-test-debug": "xvfb-maybe playwright test --debug",
+		"backend:start": "cd backend && npm run start"
+	},
+	"contributes": {
+		"commands": [
+			{
+				"command": "tmcView.activateEntry",
+				"title": "Activate",
+				"category": "TMC"
+			},
+			{
+				"command": "tmcTreeView.setContentFromTemplate",
+				"title": "Set Content From Template",
+				"category": "TMC"
+			},
+			{
+				"command": "tmcTreeView.removeCourse",
+				"title": "Remove Course",
+				"category": "TMC"
+			},
+			{
+				"command": "tmcTreeView.refreshCourses",
+				"title": "Fetch Course Updates",
+				"category": "TMC",
+				"icon": {
+					"light": "resources/light/refresh.svg",
+					"dark": "resources/dark/refresh.svg"
+				}
+			},
+			{
+				"command": "tmc.addNewCourse",
+				"title": "Add New Course...",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.changeTmcDataPath",
+				"title": "Change TMC data path",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.cleanExercise",
+				"title": "Clean Exercise",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.closeExercise",
+				"title": "Close Exercise",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.courseDetails",
+				"title": "Go to Course Details...",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.downloadNewExercises",
+				"title": "Download New Exercises for Course...",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.downloadOldSubmission",
+				"title": "Download Old Submission",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.login",
+				"title": "Log In",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.logout",
+				"title": "Log Out",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.myCourses",
+				"title": "Display My Courses",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.openSettings",
+				"title": "Settings",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.openTMCExercisesFolder",
+				"title": "Open TMC Data Folder",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.pasteExercise",
+				"title": "Send Exercise to TMC Paste",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.resetExercise",
+				"title": "Reset Exercise",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.testExercise",
+				"title": "Run Tests",
+				"icon": {
+					"dark": "resources/dark/test.svg",
+					"light": "resources/light/test.svg"
+				},
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.selectAction",
+				"title": "Action Menu",
+				"icon": {
+					"dark": "resources/dark/menu.svg",
+					"light": "resources/light/menu.svg"
+				},
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.switchWorkspace",
+				"title": "Switch Course Workspace",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.updateExercises",
+				"title": "Update Exercises",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.submitExercise",
+				"title": "Submit Solution",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.showWelcome",
+				"title": "Welcome",
+				"category": "TestMyCode"
+			},
+			{
+				"command": "tmc.wipe",
+				"category": "TMC-WipeMyCode",
+				"title": "Wipe all extension data"
+			}
+		],
+		"configuration": {
+			"title": "TestMyCode",
+			"properties": {
+				"testMyCode.downloadOldSubmission": {
+					"type": "boolean",
+					"default": true,
+					"description": "When downloading exercises, download your latest submission instead of the exercise template."
+				},
+				"testMyCode.hideMetaFiles": {
+					"type": "boolean",
+					"default": true,
+					"description": "Hide exercise meta files that are not relevant for completing exercises."
+				},
+				"testMyCode.insiderVersion": {
+					"type": "boolean",
+					"scope": "application",
+					"default": false,
+					"description": "Insider version to test new features for the TestMyCode extension."
+				},
+				"testMyCode.logLevel": {
+					"type": "string",
+					"scope": "application",
+					"default": "errors",
+					"enum": [
+						"none",
+						"errors",
+						"verbose"
+					],
+					"enumDescriptions": [
+						"No extension logging.",
+						"Log only warning and error messages.",
+						"Log info, warning and error messages."
+					]
+				},
+				"testMyCode.updateExercisesAutomatically": {
+					"type": "boolean",
+					"default": true,
+					"description": "Download exercise updates automatically."
+				}
+			}
+		},
+		"keybindings": [
+			{
+				"command": "tmc.closeExercise",
+				"key": "ctrl+shift+c",
+				"when": "test-my-code:WorkspaceActive"
+			},
+			{
+				"command": "tmc.testExercise",
+				"key": "ctrl+shift+t",
+				"when": "test-my-code:WorkspaceActive"
+			},
+			{
+				"command": "tmc.selectAction",
+				"key": "ctrl+shift+a",
+				"when": "test-my-code:WorkspaceActive"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "tmcView.activateEntry",
+					"when": "false"
+				},
+				{
+					"command": "tmcTreeView.setContentFromTemplate",
+					"when": "false"
+				},
+				{
+					"command": "tmcTreeView.removeCourse",
+					"when": "false"
+				},
+				{
+					"command": "tmcTreeView.refreshCourses",
+					"when": "false"
+				},
+				{
+					"command": "tmc.addNewCourse",
+					"title": "Add New Course...",
+					"category": "TestMyCode",
+					"when": "test-my-code:LoggedIn"
+				},
+				{
+					"command": "tmc.courseDetails",
+					"title": "Go to Course Details...",
+					"category": "TestMyCode",
+					"when": "test-my-code:LoggedIn"
+				},
+				{
+					"command": "tmc.downloadNewExercises",
+					"title": "Download New Exercises for Course...",
+					"category": "TestMyCode",
+					"when": "test-my-code:LoggedIn"
+				},
+				{
+					"command": "tmc.downloadOldSubmission",
+					"title": "Download Old Submission",
+					"category": "TestMyCode",
+					"when": "test-my-code:LoggedIn"
+				},
+				{
+					"command": "tmc.login",
+					"title": "Log In",
+					"category": "TestMyCode",
+					"when": "test-my-code:LoggedIn == false"
+				},
+				{
+					"command": "tmc.logout",
+					"title": "Log Out",
+					"category": "TestMyCode",
+					"when": "test-my-code:LoggedIn"
+				},
+				{
+					"command": "tmc.myCourses",
+					"title": "Display My Courses",
+					"category": "TestMyCode",
+					"when": "test-my-code:LoggedIn"
+				},
+				{
+					"command": "tmc.pasteExercise",
+					"title": "Send Exercise to TMC Paste",
+					"category": "TestMyCode",
+					"when": "test-my-code:LoggedIn"
+				},
+				{
+					"command": "tmc.resetExercise",
+					"title": "Reset Exercise",
+					"category": "TestMyCode",
+					"when": "test-my-code:LoggedIn"
+				},
+				{
+					"command": "tmc.updateExercises",
+					"title": "Update Exercises",
+					"category": "TestMyCode",
+					"when": "test-my-code:LoggedIn"
+				},
+				{
+					"command": "tmc.submitExercise",
+					"title": "Submit Solution",
+					"category": "TestMyCode",
+					"when": "test-my-code:LoggedIn"
+				}
+			],
+			"editor/title": [
+				{
+					"command": "tmc.testExercise",
+					"group": "navigation@0",
+					"when": "resourceScheme == file && test-my-code:WorkspaceActive"
+				},
+				{
+					"command": "tmc.selectAction",
+					"group": "navigation@1",
+					"when": "resourceScheme == file && test-my-code:WorkspaceActive"
+				}
+			],
+			"explorer/context": [
+				{
+					"command": "tmc.cleanExercise",
+					"group": "TestMyCode@6",
+					"when": "resourceScheme == file && test-my-code:WorkspaceActive"
+				},
+				{
+					"command": "tmc.closeExercise",
+					"group": "TestMyCode@3",
+					"when": "resourceScheme == file && test-my-code:WorkspaceActive"
+				},
+				{
+					"command": "tmc.downloadOldSubmission",
+					"group": "TestMyCode@5",
+					"when": "resourceScheme == file && test-my-code:WorkspaceActive && test-my-code:LoggedIn"
+				},
+				{
+					"command": "tmc.pasteExercise",
+					"group": "TestMyCode@2",
+					"when": "resourceScheme == file && test-my-code:WorkspaceActive && test-my-code:LoggedIn"
+				},
+				{
+					"command": "tmc.resetExercise",
+					"group": "TestMyCode@4",
+					"when": "resourceScheme == file && test-my-code:WorkspaceActive && test-my-code:LoggedIn"
+				},
+				{
+					"command": "tmc.testExercise",
+					"group": "TestMyCode@0",
+					"when": "resourceScheme == file && test-my-code:WorkspaceActive"
+				},
+				{
+					"command": "tmc.submitExercise",
+					"group": "TestMyCode@1",
+					"when": "resourceScheme == file && test-my-code:WorkspaceActive && test-my-code:LoggedIn"
+				}
+			],
+			"view/title": [
+				{
+					"command": "tmcTreeView.refreshCourses",
+					"when": "view == tmcView && test-my-code:LoggedIn",
+					"group": "navigation"
+				},
+				{
+					"command": "tmc.addNewCourse",
+					"when": "view == tmcView && test-my-code:LoggedIn"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "tmcTreeView.removeCourse",
+					"when": "view == tmcView && viewItem == child"
+				}
+			]
+		},
+		"views": {
+			"tmc": [
+				{
+					"id": "tmcView",
+					"name": "Menu"
+				}
+			]
+		},
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"title": "TestMyCode",
+					"id": "tmc",
+					"icon": "media/TMC.png"
+				}
+			]
+		}
+	},
+	"activationEvents": [
+		"workspaceContains:**/TMC-Readme.md"
+	],
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		}
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.{html,js,json,jsx,ts,yml}": [
+			"prettier --check"
+		],
+		"*.{js,ts}": [
+			"eslint --cache --max-warnings 0"
+		]
+	},
+	"prettier": {
+		"arrowParens": "always",
+		"endOfLine": "lf",
+		"printWidth": 100,
+		"tabWidth": 4,
+		"trailingComma": "all"
+	},
+	"dependencies": {
+		"del": "^7.0.0",
+		"du": "^1.0.0",
+		"fs-extra": "^11.1.1",
+		"handlebars": "^4.7.7",
+		"lodash": "^4.17.21",
+		"p-limit": "^4.0.0",
+		"tree-kill": "^1.2.2",
+		"ts-results": "^3.3.0",
+		"typia": "^4.1.6",
+		"undici": "^5.23.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.22.9",
+		"@babel/core": "^7.22.9",
+		"@babel/plugin-transform-modules-commonjs": "^7.22.5",
+		"@babel/plugin-transform-react-jsx": "^7.22.5",
+		"@babel/preset-env": "^7.22.9",
+		"@playwright/test": "^1.37.1",
+		"@types/chai": "^4.3.5",
+		"@types/chai-as-promised": "^7.1.5",
+		"@types/du": "^1.0.1",
+		"@types/fs-extra": "^11.0.1",
+		"@types/glob": "^8.0.0",
+		"@types/lodash": "^4.14.195",
+		"@types/mocha": "^10.0.1",
+		"@types/mock-fs": "^4.13.1",
+		"@types/node": "^20.4.2",
+		"@types/unzipper": "^0.10.6",
+		"@types/vscode": "^1.71.0",
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
+		"@vscode/test-electron": "^2.3.3",
+		"babel-loader": "^9.1.3",
+		"chai": "^4.3.7",
+		"chai-as-promised": "^7.1.1",
+		"cross-env": "^7.0.3",
+		"eslint": "^8.44.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-sort-class-members": "^1.18.0",
+		"glob": "^10.3.3",
+		"husky": "^8.0.2",
+		"lint-staged": "^13.2.3",
+		"mocha": "^10.2.0",
+		"mock-fs": "^5.2.0",
+		"prettier": "^3.0.0",
+		"raw-loader": "^4.0.2",
+		"terser-webpack-plugin": "^5.3.9",
+		"ts-loader": "^9.4.4",
+		"ts-node": "^10.9.1",
+		"ts-patch": "^3.0.1",
+		"typemoq": "^2.1.0",
+		"typescript": "^5.1.6",
+		"webpack": "^5.88.1",
+		"webpack-cli": "^5.1.4",
+		"webpack-merge": "^5.9.0",
+		"xvfb-maybe": "^0.2.1"
+	},
+	"engines": {
+		"vscode": "^1.71.0"
+	},
+	"icon": "media/TMC.png",
+	"galleryBanner": {
+		"color": "#ffab0e",
+		"theme": "light"
+	},
+	"__metadata": {
+		"id": "58e2ef2e-02ee-49ab-85cb-143d238a76c3",
+		"publisherId": "29f2e460-9fc0-44b6-9cba-d2252ca0e8cd",
+		"publisherDisplayName": "MOOC.fi – University of Helsinki",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1696963061726,
+		"preRelease": false
+	}
+}
